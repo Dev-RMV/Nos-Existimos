@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:genialcare.com.br)",
+      "WebFetch(domain:autismoerealidade.org.br)",
+      "WebFetch(domain:omundoautista.com.br)",
+      "WebFetch(domain:institutoneurosaber.com.br)",
+      "WebFetch(domain:www.southdenvertherapy.com)",
+      "WebFetch(domain:institutoinclusaobrasil.com.br)",
+      "WebFetch(domain:www.helpguide.org)",
+      "WebFetch(domain:www.canalautismo.com.br)",
+      "WebFetch(domain:autismotemcura.com.br)",
+      "WebFetch(domain:www.psychologytoday.com)",
+      "WebFetch(domain:blog.manpowergroup.com.br)",
+      "WebFetch(domain:estimulosbrasil.com.br)",
+      "WebFetch(domain:alvarenga.tv.br)",
+      "WebFetch(domain:metarh.com.br)",
+      "WebFetch(domain:ijc.org.br)",
+      "WebFetch(domain:www.clinicaformare.com.br)",
+      "WebFetch(domain:ibac.com.br)",
+      "WebFetch(domain:blog.matheustriliconeurologia.com.br)",
+      "WebFetch(domain:tismoo.com.br)",
+      "WebFetch(domain:www.pluxee.com.br)",
+      "WebFetch(domain:posdigital.pucpr.br)",
+      "Bash(npm run:*)",
+      "Bash(npx next:*)",
+      "Bash(grep -rn 'size={[0-9]*} className=.*/>$' --include=\"*.tsx\" -l)",
+      "Bash(find . -name \"*.tsx\" -exec sed -i 's|</a>|<span className=\"sr-only\"> \\(abre em nova aba\\)</span></a>|g' {} \\\\;)",
+      "Bash(grep -E \"\\\\.\\(css|scss|ts|tsx|js|jsx\\)$\")",
+      "Bash(node:*)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
