@@ -8,6 +8,8 @@
 
 Este é um site informativo dedicado a reunir conhecimento sobre **direitos, inclusão e recursos de apoio para pessoas autistas no mercado de trabalho**.
 
+- **Domínio**: nosexistimos.blog.br (registrado no Registro.br, DNS gerenciado pela Cloudflare)
+
 ## Acessibilidade
 
 Este projeto tem acessibilidade como prioridade máxima. Todo código deve respeitar os seguintes padrões:
