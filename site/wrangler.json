@@ -1,9 +1,6 @@
 {
   "name": "nos-existimos",
   "pages_build_output_dir": ".open-next/assets",
-  "build": {
-    "command": "npx opennextjs-cloudflare build"
-  },
   "compatibility_date": "2026-04-08",
   "compatibility_flags": ["nodejs_compat"]
 }
