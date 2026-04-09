@@ -11,6 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://nosexistimos.blog.br"),
   title: {
     default: "Nós Existimos — Autistas no Mercado de Trabalho",
     template: "%s — Nós Existimos",
