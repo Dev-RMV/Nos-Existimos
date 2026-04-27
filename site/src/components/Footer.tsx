@@ -11,7 +11,6 @@ const recursoLinks = [
   { label: "Grupos de Ajuda", href: "/recursos/grupos-de-ajuda" },
   { label: "Linhas de Apoio", href: "/recursos/linhas-de-apoio" },
   { label: "Perguntas Frequentes", href: "/recursos/perguntas-frequentes" },
-  { label: "Acessibilidade", href: "/acessibilidade" },
 ];
 
 export default function Footer() {
@@ -71,11 +70,6 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-white/20 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-white/80">
           <p>&copy; {new Date().getFullYear()} Nós Existimos. Feito com carinho para a comunidade autista brasileira.</p>
-          <div className="flex gap-4">
-            <Link href="/acessibilidade" className="hover:text-white/80 transition-colors">
-              Acessibilidade
-            </Link>
-          </div>
         </div>
       </div>
     </footer>

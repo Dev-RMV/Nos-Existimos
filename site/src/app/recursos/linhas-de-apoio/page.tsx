@@ -73,45 +73,35 @@ const canaisOnline = [
     tipo: "E-mail",
   },
   {
-    nome: "Mapa da Saúde Mental",
-    descricao:
-      "Plataforma que permite encontrar CAPS, CER e outros serviços de saúde mental próximos da sua localização.",
-    link: "https://www.gov.br/saude",
-    tipo: "Mapa interativo",
-  },
-  {
     nome: "Canal de Ouvidoria do SUS",
     descricao:
       "Para registrar reclamações, sugestões ou elogios sobre os serviços de saúde pública, incluindo atendimento a pessoas com TEA.",
-    link: "https://www.gov.br/saude",
+    link: "https://www.gov.br/saude/pt-br/canais-de-atendimento/ouvsus",
     tipo: "Ouvidoria",
   },
 ];
 
 const apps = [
   {
-    nome: "CVV App",
-    descricao:
-      "Aplicativo oficial do Centro de Valorização da Vida com acesso rápido ao chat, dicas de autocuidado e conteúdo de prevenção.",
-    plataforma: "Android e iOS",
-  },
-  {
     nome: "Calmaria",
     descricao:
       "App brasileiro de meditação e relaxamento com exercícios de respiração. Útil para momentos de sobrecarga sensorial.",
-    plataforma: "Android e iOS",
+    playStore: "https://play.google.com/store/apps/details?id=com.abdz.breathing",
+    appStore: "https://apps.apple.com/br/app/calmaria/id1523108871",
   },
   {
     nome: "Querida Ansiedade",
     descricao:
       "Aplicativo com técnicas de manejo da ansiedade, diário emocional e exercícios práticos para o dia a dia.",
-    plataforma: "Android e iOS",
+    playStore: "https://play.google.com/store/apps/details?id=br.com.app.gpu1622660.gpu9b5c43256d3faa5c3ad1ef7369f09620",
+    appStore: "https://apps.apple.com/br/app/querida-ansiedade/id1214993682",
   },
   {
     nome: "TODXS",
     descricao:
       "App para denúncias de discriminação e violência contra minorias. Permite registrar ocorrências e encontrar apoio jurídico.",
-    plataforma: "Android e iOS",
+    playStore: "https://play.google.com/store/apps/details?id=com.todxs",
+    appStore: "https://apps.apple.com/br/app/todxs-app/id1451459660",
   },
 ];
 
@@ -299,7 +289,7 @@ export default function LinhasDeApoioPage() {
               Aplicativos de Apoio
             </h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {apps.map((app) => (
               <div
                 key={app.nome}
@@ -308,16 +298,36 @@ export default function LinhasDeApoioPage() {
                 <Smartphone
                   size={20}
                   className="text-[var(--cor-azul-acolhedor)] mb-3"
+                  aria-hidden="true"
                 />
                 <h3 className="text-base font-bold text-[var(--cor-texto-principal)] mb-2">
                   {app.nome}
                 </h3>
-                <p className="text-sm text-[var(--cor-texto-corpo)] leading-relaxed mb-3">
+                <p className="text-sm text-[var(--cor-texto-corpo)] leading-relaxed mb-4">
                   {app.descricao}
                 </p>
-                <span className="text-sm text-[var(--cor-cinza-texto)]">
-                  {app.plataforma}
-                </span>
+                <div className="flex flex-wrap gap-3 text-sm">
+                  <a
+                    href={app.playStore}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-[var(--cor-azul-acolhedor)] hover:underline font-medium"
+                  >
+                    <ExternalLink size={14} aria-hidden="true" />
+                    Google Play
+                    <span className="sr-only"> (abre em nova aba)</span>
+                  </a>
+                  <a
+                    href={app.appStore}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-[var(--cor-azul-acolhedor)] hover:underline font-medium"
+                  >
+                    <ExternalLink size={14} aria-hidden="true" />
+                    App Store
+                    <span className="sr-only"> (abre em nova aba)</span>
+                  </a>
+                </div>
               </div>
             ))}
           </div>
