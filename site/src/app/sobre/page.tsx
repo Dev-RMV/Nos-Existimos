@@ -17,7 +17,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "Sobre o Projeto",
   description:
-    "Conheca o projeto Nos Existimos: missao, visao, valores e por que lutamos pela inclusao de autistas no mercado de trabalho.",
+    "Conheça o projeto Nós Existimos: missão, visão, valores e por que lutamos pela inclusão de autistas no mercado de trabalho.",
 };
 
 const valores = [
@@ -25,37 +25,37 @@ const valores = [
     icon: Heart,
     titulo: "Respeito",
     descricao:
-      "Cada pessoa autista e unica. Respeitamos o espectro em toda sua diversidade, sem tentar normalizar ou padronizar ninguem.",
+      "Cada pessoa autista é única. Respeitamos o espectro em toda sua diversidade, sem tentar normalizar ou padronizar ninguém.",
   },
   {
     icon: BookOpen,
-    titulo: "Informacao",
+    titulo: "Informação",
     descricao:
-      "Combatemos a desinformacao com conteudo baseado em evidencias cientificas, legislacao vigente e experiencias reais.",
+      "Combatemos a desinformação com conteúdo baseado em evidências científicas, legislação vigente e experiências reais.",
   },
   {
     icon: Scale,
-    titulo: "Justica",
+    titulo: "Justiça",
     descricao:
-      "Defendemos o direito ao trabalho digno para todas as pessoas autistas, com igualdade de oportunidades e adaptacoes razoaveis.",
+      "Defendemos o direito ao trabalho digno para todas as pessoas autistas, com igualdade de oportunidades e adaptações razoáveis.",
   },
   {
     icon: Users,
     titulo: "Comunidade",
     descricao:
-      "Acreditamos na forca da comunidade. Autistas, familiares, empresas e sociedade juntos constroem a mudanca.",
+      "Acreditamos na força da comunidade. Autistas, familiares, empresas e sociedade juntos constroem a mudança.",
   },
   {
     icon: Sparkles,
     titulo: "Protagonismo",
     descricao:
-      "Nada sobre nos, sem nos. Pessoas autistas devem protagonizar as conversas e decisoes que impactam suas vidas.",
+      "Nada sobre nós, sem nós. Pessoas autistas devem protagonizar as conversas e decisões que impactam suas vidas.",
   },
   {
     icon: HandHeart,
     titulo: "Acolhimento",
     descricao:
-      "Um espaco seguro, acessivel e livre de julgamento para todos que buscam informacao e apoio.",
+      "Um espaço seguro, acessível e livre de julgamento para todos que buscam informação e apoio.",
   },
 ];
 
@@ -64,38 +64,38 @@ const publico = [
     icon: Users,
     titulo: "Pessoas autistas",
     descricao:
-      "Informacoes sobre direitos, adaptacoes, autoadvocacia e recursos para quem busca se inserir ou se manter no mercado de trabalho.",
+      "Informações sobre direitos, adaptações, autoadvocacia e recursos para quem busca se inserir ou se manter no mercado de trabalho.",
   },
   {
     icon: Heart,
     titulo: "Familiares",
     descricao:
-      "Orientacao para pais, irmaos e cuidadores que acompanham a jornada profissional de uma pessoa autista.",
+      "Orientação para pais, irmãos e cuidadores que acompanham a jornada profissional de uma pessoa autista.",
   },
   {
     icon: Briefcase,
     titulo: "Empresas",
     descricao:
-      "Guias praticos para construir ambientes inclusivos, adaptar processos seletivos e valorizar a neurodiversidade.",
+      "Guias práticos para construir ambientes inclusivos, adaptar processos seletivos e valorizar a neurodiversidade.",
   },
   {
     icon: BookOpen,
     titulo: "Sociedade",
     descricao:
-      "Conteudo educativo para toda pessoa que deseja entender o autismo e contribuir para uma sociedade mais justa.",
+      "Conteúdo educativo para toda pessoa que deseja entender o autismo e contribuir para uma sociedade mais justa.",
   },
 ];
 
 export default function SobrePage() {
   return (
     <>
-      <section aria-label="Sobre o Nos Existimos" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
+      <section aria-label="Sobre o Nós Existimos" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb items={[{ label: "Sobre" }]} />
           <div className="max-w-3xl">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-white">
               Sobre o{" "}
-              <span className="text-[var(--cor-hero-destaque)]">Nos Existimos</span>
+              <span className="text-[var(--cor-hero-destaque)]">Nós Existimos</span>
             </h1>
             <p className="text-lg text-white/80 leading-relaxed">
               Site informativo que reúne conhecimento sobre direitos, inclusão
@@ -105,38 +105,38 @@ export default function SobrePage() {
         </div>
       </section>
 
-      {/* O que e */}
+      {/* O que é */}
       <section aria-label="O que é o Nós Existimos?" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-2xl sm:text-3xl font-bold mb-6">
-              O que e o &ldquo;Nos Existimos&rdquo;?
+              O que é o &ldquo;Nós Existimos&rdquo;?
             </h2>
             <p className="prosa text-[var(--cor-texto-corpo)] leading-relaxed mb-4">
-              O <strong className="text-[var(--cor-texto-principal)]">Nos Existimos</strong> e
+              O <strong className="text-[var(--cor-texto-principal)]">Nós Existimos</strong> é
               um site informativo criado para dar visibilidade a uma realidade
-              frequentemente ignorada: a exclusao de pessoas autistas do mercado de
+              frequentemente ignorada: a exclusão de pessoas autistas do mercado de
               trabalho. Enquanto{" "}
-              <a href="https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">cerca de 85% dos adultos autistas estao desempregados
-              ou subempregados<span className="sr-only"> (abre em nova aba)</span></a>, o preconceito e a falta de informacao continuam sendo
+              <a href="https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">cerca de 85% dos adultos autistas estão desempregados
+              ou subempregados<span className="sr-only"> (abre em nova aba)</span></a>, o preconceito e a falta de informação continuam sendo
               as maiores barreiras.
             </p>
             <p className="prosa text-[var(--cor-texto-corpo)] leading-relaxed mb-4">
-              O nome e uma afirmacao: nos existimos, somos capazes e merecemos
-              oportunidades justas. Este site reune informacoes sobre direitos,
-              recursos de apoio e orientacoes para empresas, servindo como
-              referencia para quem busca conhecimento sobre o tema.
+              O nome é uma afirmação: nós existimos, somos capazes e merecemos
+              oportunidades justas. Este site reúne informações sobre direitos,
+              recursos de apoio e orientações para empresas, servindo como
+              referência para quem busca conhecimento sobre o tema.
             </p>
             <p className="prosa text-[var(--cor-texto-corpo)] leading-relaxed">
-              Acreditamos que a informacao e o primeiro passo para a mudanca. Por
-              isso, todo o conteudo deste site e gratuito, acessivel e pensado para
-              alcançar o maior numero possivel de pessoas.
+              Acreditamos que a informação é o primeiro passo para a mudança. Por
+              isso, todo o conteúdo deste site é gratuito, acessível e pensado para
+              alcançar o maior número possível de pessoas.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Missao e Visao */}
+      {/* Missão e Valores */}
       <section aria-label="Missão e Valores" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10">Missão e Valores</h2>
@@ -145,11 +145,11 @@ export default function SobrePage() {
               <div className="w-12 h-12 rounded-lg bg-[var(--cor-dourado)]/10 flex items-center justify-center mb-5">
                 <Target size={24} className="text-[var(--cor-dourado)]" aria-hidden="true" />
               </div>
-              <h3 className="text-xl font-bold mb-4">Missao do Site</h3>
+              <h3 className="text-xl font-bold mb-4">Missão do Site</h3>
               <p className="text-[var(--cor-texto-corpo)] leading-relaxed">
-                Reunir e difundir informacoes confiáveis sobre o autismo no mercado
-                de trabalho, contribuindo para a conscientizacao da sociedade e
-                servindo como referencia para a criacao de ambientes profissionais
+                Reunir e difundir informações confiáveis sobre o autismo no mercado
+                de trabalho, contribuindo para a conscientização da sociedade e
+                servindo como referência para a criação de ambientes profissionais
                 mais inclusivos.
               </p>
             </div>
@@ -159,9 +159,9 @@ export default function SobrePage() {
               </div>
               <h3 className="text-xl font-bold mb-4">O que Acreditamos</h3>
               <p className="text-[var(--cor-texto-corpo)] leading-relaxed">
-                Que a informacao e o primeiro passo para a mudanca. Um mercado de
-                trabalho onde a neurodiversidade e valorizada comeca quando pessoas,
-                familias e empresas tem acesso a conhecimento de qualidade sobre o
+                Que a informação é o primeiro passo para a mudança. Um mercado de
+                trabalho onde a neurodiversidade é valorizada começa quando pessoas,
+                famílias e empresas têm acesso a conhecimento de qualidade sobre o
                 tema.
               </p>
             </div>
@@ -176,7 +176,7 @@ export default function SobrePage() {
             Nossos Valores
           </h2>
           <p className="text-center text-[var(--cor-texto-corpo)] mb-12 max-w-2xl mx-auto">
-            Principios que guiam cada conteudo, cada decisao e cada acao do
+            Princípios que guiam cada conteúdo, cada decisão e cada ação do
             projeto.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -245,25 +245,25 @@ export default function SobrePage() {
             </h2>
             <div className="prosa space-y-4 text-[var(--cor-texto-corpo)] leading-relaxed">
               <p>
-                O Brasil tem milhoes de pessoas autistas, mas a maioria permanece
-                invisivel no mercado de trabalho. Mesmo com legislacao que garante
-                direitos, a falta de informacao e o preconceito criam barreiras
-                quase intransponiveis.
+                O Brasil tem milhões de pessoas autistas, mas a maioria permanece
+                invisível no mercado de trabalho. Mesmo com legislação que garante
+                direitos, a falta de informação e o preconceito criam barreiras
+                quase intransponíveis.
               </p>
               <p>
-                Muitos empregadores ainda associam o autismo a incapacidade.
-                Muitos autistas nao conhecem seus direitos. Muitas familias nao
+                Muitos empregadores ainda associam o autismo à incapacidade.
+                Muitos autistas não conhecem seus direitos. Muitas famílias não
                 sabem onde buscar apoio. Este site existe para preencher essas
                 lacunas.
               </p>
               <p>
                 Acreditamos que quando a sociedade entende o autismo, quando as
                 empresas aprendem a incluir e quando as pessoas autistas conhecem
-                seus direitos, a transformacao acontece. E ela ja esta
+                seus direitos, a transformação acontece. E ela já está
                 acontecendo.
               </p>
               <p className="text-[var(--cor-texto-principal)] font-semibold text-center text-lg pt-4">
-                Nos existimos. E estamos construindo um futuro mais justo.
+                Nós existimos. E estamos construindo um futuro mais justo.
               </p>
             </div>
           </div>
@@ -273,7 +273,7 @@ export default function SobrePage() {
       {/* CTA */}
       <section aria-label="Faça parte dessa mudança" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-2xl font-bold mb-6">Faca parte dessa mudanca</h2>
+          <h2 className="text-2xl font-bold mb-6">Faça parte dessa mudança</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/informacao/o-que-e-autismo"

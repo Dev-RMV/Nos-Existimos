@@ -121,7 +121,7 @@ export default function LinhasDeApoioPage() {
               Linhas de Apoio
             </h1>
             <p className="text-lg text-white/80 leading-relaxed">
-              Se voce ou alguem proximo precisa de ajuda, saiba que existem
+              Se você ou alguém próximo precisa de ajuda, saiba que existem
               canais de apoio gratuitos e confidenciais disponíveis 24 horas.
             </p>
           </div>
@@ -342,10 +342,10 @@ export default function LinhasDeApoioPage() {
               <strong className="text-[var(--cor-texto-principal)]">
                 Importante:
               </strong>{" "}
-              Se voce esta em situacao de risco imediato, ligue para o{" "}
+              Se você está em situação de risco imediato, ligue para o{" "}
               <strong>SAMU (192)</strong> ou dirija-se ao pronto-socorro mais
-              proximo. As linhas de apoio emocional nao substituem atendimento
-              medico de emergencia.
+              próximo. As linhas de apoio emocional não substituem atendimento
+              médico de emergência.
             </p>
           </div>
         </div>

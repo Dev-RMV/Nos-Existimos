@@ -6,79 +6,79 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "Perguntas Frequentes",
   description:
-    "Respostas para as duvidas mais comuns sobre autismo e mercado de trabalho, direitos, diagnostico, inclusao e adaptacoes.",
+    "Respostas para as dúvidas mais comuns sobre autismo e mercado de trabalho, direitos, diagnóstico, inclusão e adaptações.",
 };
 
 const perguntas = [
   {
     pergunta: "Autistas podem trabalhar?",
     resposta:
-      "Sim, absolutamente. Pessoas autistas podem exercer qualquer profissao, desde que recebam o suporte adequado. Muitos autistas possuem habilidades valorizadas no mercado, como atencao a detalhes, pensamento logico, criatividade e capacidade de concentracao profunda (hiperfoco). O que frequentemente falta nao e capacidade, mas sim ambientes de trabalho adaptados e livres de preconceito.",
+      "Sim, absolutamente. Pessoas autistas podem exercer qualquer profissão, desde que recebam o suporte adequado. Muitos autistas possuem habilidades valorizadas no mercado, como atenção a detalhes, pensamento lógico, criatividade e capacidade de concentração profunda (hiperfoco). O que frequentemente falta não é capacidade, mas sim ambientes de trabalho adaptados e livres de preconceito.",
   },
   {
-    pergunta: "Sou obrigado a revelar meu diagnostico no trabalho?",
+    pergunta: "Sou obrigado a revelar meu diagnóstico no trabalho?",
     resposta:
-      "Nao. A divulgacao do diagnostico de TEA e uma decisao pessoal. A legislacao brasileira protege o sigilo medico. No entanto, revelar o diagnostico pode facilitar o acesso a adaptacoes razoaveis e a protecao legal. A decisao deve ser tomada considerando o ambiente de trabalho, a cultura da empresa e o nível de conforto pessoal. Ninguem pode ser demitido ou prejudicado por revelar o diagnostico.",
+      "Não. A divulgação do diagnóstico de TEA é uma decisão pessoal. A legislação brasileira protege o sigilo médico. No entanto, revelar o diagnóstico pode facilitar o acesso a adaptações razoáveis e a proteção legal. A decisão deve ser tomada considerando o ambiente de trabalho, a cultura da empresa e o nível de conforto pessoal. Ninguém pode ser demitido ou prejudicado por revelar o diagnóstico.",
   },
   {
-    pergunta: "O que e a Lei de Cotas?",
+    pergunta: "O que é a Lei de Cotas?",
     resposta:
-      "A Lei de Cotas (Lei 8.213/1991) determina que empresas com 100 ou mais funcionarios devem reservar de 2% a 5% das vagas para pessoas com deficiencia. Desde 2012, com a Lei Berenice Piana (12.764), autistas sao considerados pessoas com deficiencia para todos os efeitos legais, incluindo a Lei de Cotas. Isso significa que empresas devem incluir profissionais autistas em seus programas de contratacao.",
+      "A Lei de Cotas (Lei 8.213/1991) determina que empresas com 100 ou mais funcionários devem reservar de 2% a 5% das vagas para pessoas com deficiência. Desde 2012, com a Lei Berenice Piana (12.764), autistas são considerados pessoas com deficiência para todos os efeitos legais, incluindo a Lei de Cotas. Isso significa que empresas devem incluir profissionais autistas em seus programas de contratação.",
   },
   {
-    pergunta: "O que sao adaptacoes razoaveis no trabalho?",
+    pergunta: "O que são adaptações razoáveis no trabalho?",
     resposta:
-      "Adaptacoes razoaveis sao ajustes no ambiente ou na rotina de trabalho que permitem a participacao plena do profissional autista. Exemplos incluem: reducao de estimulos sensoriais (iluminacao, ruido), comunicacao clara e objetiva, rotinas previsiveis, pausas sensoriais, home office, fones de ouvido com cancelamento de ruido e instrucoes por escrito. A empresa tem obrigacao legal de providenciar adaptacoes razoaveis.",
+      "Adaptações razoáveis são ajustes no ambiente ou na rotina de trabalho que permitem a participação plena do profissional autista. Exemplos incluem: redução de estímulos sensoriais (iluminação, ruído), comunicação clara e objetiva, rotinas previsíveis, pausas sensoriais, home office, fones de ouvido com cancelamento de ruído e instruções por escrito. A empresa tem obrigação legal de providenciar adaptações razoáveis.",
   },
   {
     pergunta: "Como funciona o processo seletivo inclusivo?",
     resposta:
-      "Um processo seletivo inclusivo evita barreiras desnecessarias para candidatos autistas. Isso inclui: fornecer as perguntas da entrevista com antecedencia, evitar dinamicas de grupo, permitir respostas por escrito, dar tempo extra, usar linguagem direta e avaliar competencias tecnicas ao inves de habilidades sociais artificiais. Empresas como SAP, Microsoft e Specialisterne ja adotam processos adaptados.",
+      "Um processo seletivo inclusivo evita barreiras desnecessárias para candidatos autistas. Isso inclui: fornecer as perguntas da entrevista com antecedência, evitar dinâmicas de grupo, permitir respostas por escrito, dar tempo extra, usar linguagem direta e avaliar competências técnicas ao invés de habilidades sociais artificiais. Empresas como SAP, Microsoft e Specialisterne já adotam processos adaptados.",
   },
   {
-    pergunta: "Autismo e doenca?",
+    pergunta: "Autismo é doença?",
     resposta:
-      "Nao. O Transtorno do Espectro Autista (TEA) e uma condicao do neurodesenvolvimento, nao uma doenca. Autistas possuem um funcionamento neurologico diferente, o que impacta a forma como percebem o mundo, se comunicam e interagem socialmente. O autismo e um espectro, o que significa que cada pessoa autista tem caracteristicas unicas, com diferentes niveis de suporte necessario.",
+      "Não. O Transtorno do Espectro Autista (TEA) é uma condição do neurodesenvolvimento, não uma doença. Autistas possuem um funcionamento neurológico diferente, o que impacta a forma como percebem o mundo, se comunicam e interagem socialmente. O autismo é um espectro, o que significa que cada pessoa autista tem características únicas, com diferentes níveis de suporte necessário.",
   },
   {
-    pergunta: "Quais profissoes sao mais indicadas para autistas?",
+    pergunta: "Quais profissões são mais indicadas para autistas?",
     resposta:
-      "Nao existe uma profissao unica ideal. Autistas atuam com sucesso em areas como tecnologia, ciencia, artes, engenharia, contabilidade, biblioteconomia, design e muitas outras. O mais importante e que a profissao esteja alinhada aos interesses e habilidades da pessoa, e que o ambiente de trabalho seja acolhedor. O mito de que autistas so podem trabalhar com tecnologia e prejudicial e limitante.",
+      "Não existe uma profissão única ideal. Autistas atuam com sucesso em áreas como tecnologia, ciência, artes, engenharia, contabilidade, biblioteconomia, design e muitas outras. O mais importante é que a profissão esteja alinhada aos interesses e habilidades da pessoa, e que o ambiente de trabalho seja acolhedor. O mito de que autistas só podem trabalhar com tecnologia é prejudicial e limitante.",
   },
   {
     pergunta: "Como uma empresa pode se tornar mais inclusiva?",
     resposta:
-      "O caminho para a inclusao envolve: capacitar gestores e equipes sobre neurodiversidade, adaptar processos seletivos, oferecer adaptacoes razoaveis, designar mentores, criar canais de comunicacao claros, respeitar limites sensoriais e valorizar diferentes estilos de trabalho. Consultar profissionais autistas e organizacoes especializadas e fundamental para que as acoes sejam efetivas e nao apenas simbolicas.",
+      "O caminho para a inclusão envolve: capacitar gestores e equipes sobre neurodiversidade, adaptar processos seletivos, oferecer adaptações razoáveis, designar mentores, criar canais de comunicação claros, respeitar limites sensoriais e valorizar diferentes estilos de trabalho. Consultar profissionais autistas e organizações especializadas é fundamental para que as ações sejam efetivas e não apenas simbólicas.",
   },
   {
-    pergunta: "Autistas tem direito a aposentadoria especial?",
+    pergunta: "Autistas têm direito a aposentadoria especial?",
     resposta:
-      "Pessoas autistas com deficiencia reconhecida podem ter direito a aposentadoria por tempo de contribuicao reduzido ou ao Beneficio de Prestacao Continuada (BPC/LOAS), que garante um salario minimo mensal para pessoas com deficiencia em situacao de vulnerabilidade economica. O acesso depende de avaliacao medica e social do INSS. A CIPTEA (Carteira de Identificacao da Pessoa com TEA) facilita esse processo.",
+      "Pessoas autistas com deficiência reconhecida podem ter direito a aposentadoria por tempo de contribuição reduzido ou ao Benefício de Prestação Continuada (BPC/LOAS), que garante um salário mínimo mensal para pessoas com deficiência em situação de vulnerabilidade econômica. O acesso depende de avaliação médica e social do INSS. A CIPTEA (Carteira de Identificação da Pessoa com TEA) facilita esse processo.",
   },
   {
     pergunta: "Como conseguir a CIPTEA?",
     resposta:
-      "A CIPTEA (Carteira de Identificacao da Pessoa com Transtorno do Espectro Autista) foi criada pela Lei Romeo Mion (13.977/2020). Para obte-la, e necessario apresentar laudo medico comprovando o diagnostico de TEA. O documento e emitido gratuitamente por orgaos municipais ou estaduais de saude e tem validade de 5 anos, devendo ser renovado com atualizacao da foto.",
+      "A CIPTEA (Carteira de Identificação da Pessoa com Transtorno do Espectro Autista) foi criada pela Lei Romeo Mion (13.977/2020). Para obtê-la, é necessário apresentar laudo médico comprovando o diagnóstico de TEA. O documento é emitido gratuitamente por órgãos municipais ou estaduais de saúde e tem validade de 5 anos, devendo ser renovado com atualização da foto.",
   },
   {
     pergunta: "Meu filho foi diagnosticado com autismo. O que fazer?",
     resposta:
-      "O primeiro passo e buscar acompanhamento multidisciplinar (neuropediatra, fonoaudiologo, terapeuta ocupacional, psicologo). O SUS oferece atendimento gratuito atraves dos CER e CAPS. Procure tambem grupos de apoio de familiares, como a AMA e as APAEs. Informe-se sobre seus direitos e os da crianca. Lembre-se: o diagnostico nao muda quem seu filho e — apenas oferece ferramentas para apoiá-lo melhor.",
+      "O primeiro passo é buscar acompanhamento multidisciplinar (neuropediatra, fonoaudiólogo, terapeuta ocupacional, psicólogo). O SUS oferece atendimento gratuito através dos CER e CAPS. Procure também grupos de apoio de familiares, como a AMA e as APAEs. Informe-se sobre seus direitos e os da criança. Lembre-se: o diagnóstico não muda quem seu filho é — apenas oferece ferramentas para apoiá-lo melhor.",
   },
   {
     pergunta: "Posso ser demitido por ser autista?",
     resposta:
-      "A demissao motivada pelo diagnostico de autismo e discriminatoria e ilegal. A Lei 9.029/1995 proibe praticas discriminatorias na relacao de trabalho. Alem disso, trabalhadores com deficiencia contratados pela Lei de Cotas so podem ser demitidos sem justa causa se a empresa contratar outro profissional com deficiencia para a mesma vaga. Em caso de demissao discriminatoria, busque orientacao juridica ou denuncie ao Ministerio Publico do Trabalho.",
+      "A demissão motivada pelo diagnóstico de autismo é discriminatória e ilegal. A Lei 9.029/1995 proíbe práticas discriminatórias na relação de trabalho. Além disso, trabalhadores com deficiência contratados pela Lei de Cotas só podem ser demitidos sem justa causa se a empresa contratar outro profissional com deficiência para a mesma vaga. Em caso de demissão discriminatória, busque orientação jurídica ou denuncie ao Ministério Público do Trabalho.",
   },
   {
-    pergunta: "O que e mascaramento (masking)?",
+    pergunta: "O que é mascaramento (masking)?",
     resposta:
-      "Mascaramento e o esforco consciente ou inconsciente que autistas fazem para esconder suas caracteristicas e se comportar de forma considerada 'normal'. Isso inclui forcar contato visual, imitar expressoes faciais e suprimir stims (movimentos repetitivos). Embora possa facilitar a interacao social, o mascaramento e extremamente exaustivo e esta associado a burnout autista, ansiedade e depressao. Ambientes de trabalho inclusivos reduzem a necessidade de mascaramento.",
+      "Mascaramento é o esforço consciente ou inconsciente que autistas fazem para esconder suas características e se comportar de forma considerada 'normal'. Isso inclui forçar contato visual, imitar expressões faciais e suprimir stims (movimentos repetitivos). Embora possa facilitar a interação social, o mascaramento é extremamente exaustivo e está associado a burnout autista, ansiedade e depressão. Ambientes de trabalho inclusivos reduzem a necessidade de mascaramento.",
   },
   {
-    pergunta: "O que e burnout autista?",
+    pergunta: "O que é burnout autista?",
     resposta:
-      "O burnout autista e um estado de exaustao fisica, mental e emocional causado pelo esforco cronico de se adaptar a um mundo nao projetado para autistas. Diferente do burnout comum, pode incluir perda de habilidades previamente adquiridas, aumento da sensibilidade sensorial e dificuldade de funcionamento basico. E frequentemente causado por mascaramento prolongado, sobrecarga sensorial e falta de adaptacoes adequadas no trabalho.",
+      "O burnout autista é um estado de exaustão física, mental e emocional causado pelo esforço crônico de se adaptar a um mundo não projetado para autistas. Diferente do burnout comum, pode incluir perda de habilidades previamente adquiridas, aumento da sensibilidade sensorial e dificuldade de funcionamento básico. É frequentemente causado por mascaramento prolongado, sobrecarga sensorial e falta de adaptações adequadas no trabalho.",
   },
 ];
 
@@ -98,8 +98,8 @@ export default function PerguntasFrequentesPage() {
               Perguntas Frequentes
             </h1>
             <p className="text-lg text-white/80 leading-relaxed">
-              Respostas para as duvidas mais comuns sobre autismo, mercado de
-              trabalho, direitos e inclusao profissional.
+              Respostas para as dúvidas mais comuns sobre autismo, mercado de
+              trabalho, direitos e inclusão profissional.
             </p>
           </div>
         </div>
@@ -141,18 +141,18 @@ export default function PerguntasFrequentesPage() {
       <section aria-label="Não encontrou sua dúvida?" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl font-bold mb-4">
-            Nao encontrou sua duvida?
+            Não encontrou sua dúvida?
           </h2>
           <p className="text-[var(--cor-texto-corpo)] mb-8 max-w-xl mx-auto leading-relaxed">
-            Explore nosso conteudo informativo ou entre em contato com os grupos
-            de ajuda para orientacao personalizada.
+            Explore nosso conteúdo informativo ou entre em contato com os grupos
+            de ajuda para orientação personalizada.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/informacao/o-que-e-autismo"
               className="inline-flex items-center gap-2 bg-[var(--cor-azul-base)] text-white font-semibold px-6 py-3 rounded-lg hover:brightness-110 transition min-h-12"
             >
-              O que e autismo
+              O que é autismo
               <ArrowRight size={16} />
             </Link>
             <Link

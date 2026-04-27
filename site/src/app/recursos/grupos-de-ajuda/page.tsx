@@ -225,7 +225,7 @@ export default function GruposDeAjudaPage() {
           />
           <h2 className="text-2xl font-bold mb-4">Precisa de ajuda agora?</h2>
           <p className="text-[var(--cor-texto-corpo)] mb-6 max-w-xl mx-auto">
-            Se voce ou alguem que voce conhece precisa de apoio imediato,
+            Se você ou alguém que você conhece precisa de apoio imediato,
             conheça nossas linhas de apoio disponíveis 24 horas.
           </p>
           <Link
