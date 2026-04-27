@@ -18,15 +18,7 @@ const nacionais = [
     site: "https://www.ama.org.br",
     telefone: "(11) 3376-4400",
   },
-  {
-    nome: "ABRA — Associação Brasileira de Autismo",
-    descricao:
-      "Rede nacional que articula entidades dedicadas ao autismo em todo o Brasil, promovendo políticas públicas e conscientização social.",
-    tipo: "Articulação e políticas públicas",
-    site: "https://www.autismo.org.br",
-    telefone: "(11) 3266-2828",
-  },
-  {
+{
     nome: "Autismo e Realidade",
     descricao:
       "Produz e dissemina conteúdo científico sobre o TEA, além de oferecer cursos gratuitos para familiares e profissionais de saúde e educação.",
@@ -42,22 +34,6 @@ const nacionais = [
     site: "https://apaebrasil.org.br",
     telefone: "(61) 3224-9922",
   },
-  {
-    nome: "CER/SUS — Centros Especializados em Reabilitação",
-    descricao:
-      "Centros do Sistema Único de Saúde que oferecem diagnóstico, tratamento e reabilitação gratuitos para pessoas com TEA em todo o território nacional.",
-    tipo: "Diagnóstico e reabilitação (público)",
-    site: "https://www.gov.br/saude",
-    telefone: "136",
-  },
-  {
-    nome: "CAPS — Centros de Atenção Psicossocial",
-    descricao:
-      "Unidades do SUS voltadas à saúde mental que oferecem acompanhamento psicossocial, acolhimento e suporte a pessoas autistas e suas famílias.",
-    tipo: "Saúde mental e acompanhamento",
-    site: "https://www.gov.br/saude",
-    telefone: "136",
-  },
 ];
 
 const internacionais = [
@@ -66,7 +42,7 @@ const internacionais = [
     descricao:
       "Uma das maiores organizações do mundo dedicadas ao autismo. Promove conscientização, advocacia e acesso a serviços nos Estados Unidos e globalmente.",
     tipo: "Advocacia e conscientização",
-    site: "https://www.autism-society.org",
+    site: "https://autismsociety.org",
     telefone: "+1 (800) 328-8476",
   },
   {
@@ -93,18 +69,10 @@ const inclusaoProfissional = [
     descricao:
       "Empresa social de origem dinamarquesa presente no Brasil que conecta profissionais autistas a vagas no mercado de trabalho, com foco em tecnologia e análise de dados.",
     tipo: "Recrutamento e inclusão",
-    site: "https://br.specialisterne.com",
+    site: "https://specialisternebrasil.com",
     telefone: null,
   },
-  {
-    nome: "Programa Autismo no Trabalho (FIESP)",
-    descricao:
-      "Iniciativa da Federação das Indústrias de São Paulo para capacitação e inserção de autistas na indústria paulista.",
-    tipo: "Capacitação profissional",
-    site: "https://www.fiesp.com.br",
-    telefone: "(11) 3549-4499",
-  },
-  {
+{
     nome: "Instituto Jô Clemente (APAE de São Paulo)",
     descricao:
       "Programa de emprego apoiado que auxilia na preparação e acompanhamento de pessoas autistas em ambientes corporativos.",

@@ -134,7 +134,7 @@ const organizacoes = [
     nome: "Specialisterne",
     descricao:
       "Organização internacional presente no Brasil que conecta profissionais autistas a empresas inclusivas, oferecendo treinamento e suporte.",
-    url: "https://specialisterne.com.br",
+    url: "https://specialisternebrasil.com",
   },
   {
     nome: "Autismo e Realidade",
@@ -153,12 +153,6 @@ const organizacoes = [
     descricao:
       "Atua na inclusão profissional de PcD com programas de qualificação, encaminhamento ao mercado de trabalho e apoio contínuo.",
     url: "https://ijc.org.br",
-  },
-  {
-    nome: "Programa Emprego Apoiado",
-    descricao:
-      "Metodologia de inclusão profissional que oferece suporte individualizado para PcD, incluindo autistas, no ambiente de trabalho.",
-    url: "https://empregopoiado.org.br",
   },
 ];
 
