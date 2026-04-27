@@ -363,9 +363,8 @@ export default function ParaEmpresas() {
             </h2>
             <p className="text-[var(--cor-texto-corpo)] mb-8 leading-relaxed">
               Empresas como{" "}
-              <a href="https://www.sap.com/about/company/diversity/differently-abled.html" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">SAP<span className="sr-only"> (abre em nova aba)</span></a>,{" "}
-              <a href="https://www.microsoft.com/en-us/diversity/inside-microsoft/cross-disability/neurodiversityhiring" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">Microsoft<span className="sr-only"> (abre em nova aba)</span></a> e{" "}
-              <a href="https://auticon.com" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">Auticon<span className="sr-only"> (abre em nova aba)</span></a>{" "}
+              <a href="https://www.sap.com/discover/neuroinclusion/index.html" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">SAP<span className="sr-only"> (abre em nova aba)</span></a> e{" "}
+              <a href="https://www.microsoft.com/en-us/diversity/inside-microsoft/cross-disability/neurodiversityhiring" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">Microsoft<span className="sr-only"> (abre em nova aba)</span></a>{" "}
               já colhem os frutos da inclusão de profissionais autistas. Conheça seus programas e resultados.
             </p>
             <Link

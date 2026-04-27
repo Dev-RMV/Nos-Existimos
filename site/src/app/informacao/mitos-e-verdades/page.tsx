@@ -45,7 +45,7 @@ const mitos = [
     verdade:
       "Muitas pessoas autistas são profissionais competentes e dedicados. O alto desemprego se deve principalmente à falta de adaptações no ambiente de trabalho e ao preconceito nos processos seletivos — não à incapacidade. Empresas como SAP, Microsoft e JP Morgan têm programas específicos de contratação de autistas com resultados excelentes.",
     fontes: [
-      { nome: "SAP — Autism at Work", url: "https://www.sap.com/about/company/diversity/differently-abled.html" },
+      { nome: "SAP — Autism at Work", url: "https://www.sap.com/discover/neuroinclusion/index.html" },
       { nome: "Microsoft — Neurodiversity Hiring", url: "https://www.microsoft.com/en-us/diversity/inside-microsoft/cross-disability/neurodiversityhiring" },
       { nome: "HBR — Neurodiversity as Competitive Advantage", url: "https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage" },
     ],

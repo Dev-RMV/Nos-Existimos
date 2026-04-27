@@ -26,14 +26,14 @@ const empresas = [
     nome: "SAP",
     programa: "Autism at Work",
     anoInicio: 2013,
-    fonteUrl: "https://www.sap.com/about/company/diversity/differently-abled.html",
+    fonteUrl: "https://www.sap.com/discover/neuroinclusion/index.html",
     descricao:
-      "Um dos programas pioneiros de inclusão de autistas no mundo corporativo. A SAP se comprometeu a ter 1% de sua força de trabalho composta por pessoas autistas até 2020 — meta que superou.",
+      "Um dos programas pioneiros de inclusão de autistas no mundo corporativo. Lançado em 2013, o Autism at Work já inspirou mais de 125 empresas a criarem programas semelhantes.",
     resultados: [
-      "Mais de 200 colaboradores autistas em 15 países",
-      "Aumento mensurável em inovação e qualidade de software",
-      "Redução de rotatividade entre os participantes do programa",
-      "Premiado como referência global em inclusão corporativa",
+      "Mais de 240 colaboradores neurodivergentes em 16 países",
+      "Contribuição direta em patentes e inovações, segundo o CEO Christian Klein",
+      "Melhoria nas habilidades de liderança dos gestores envolvidos",
+      "Modelo replicado por mais de 125 empresas ao redor do mundo",
     ],
     pais: "Alemanha / Global",
   },
@@ -66,21 +66,6 @@ const empresas = [
       "Taxa de retenção acima de 90% entre profissionais colocados",
     ],
     pais: "Dinamarca / Brasil / Global",
-  },
-  {
-    nome: "Auticon",
-    programa: "Consultoria de TI 100% Autista",
-    anoInicio: 2011,
-    fonteUrl: "https://auticon.com",
-    descricao:
-      "A Auticon é a primeira empresa do mundo cujos consultores de tecnologia são exclusivamente pessoas autistas. Oferece serviços de QA, análise de dados, cibersegurança e compliance.",
-    resultados: [
-      "Todos os consultores de tecnologia são profissionais autistas",
-      "Presente em 8 países com mais de 300 consultores",
-      "Clientes incluem grandes corporações e órgãos governamentais",
-      "Job coaches dedicados garantem suporte individualizado",
-    ],
-    pais: "Alemanha / Global",
   },
 ];
 
@@ -318,12 +303,12 @@ export default function CasosDeSucesso() {
             </div>
             <div className="bg-[var(--cor-fundo)] rounded-xl p-6 text-center border border-[var(--cor-cinza-claro)]">
               <p className="text-3xl sm:text-4xl font-bold text-[var(--cor-dourado-texto)] mb-2">
-                200+
+                240+
               </p>
               <p className="text-sm text-[var(--cor-texto-corpo)]">
-                colaboradores autistas contratados pela SAP em mais de 15 países
+                colaboradores neurodivergentes contratados pela SAP em 16 países
               </p>
-              <a href="https://www.sap.com/about/company/diversity/differently-abled.html" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--cor-azul-acolhedor)] hover:underline mt-2 inline-block">Fonte: SAP<span className="sr-only"> (abre em nova aba)</span></a>
+              <a href="https://www.sap.com/discover/neuroinclusion/index.html" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--cor-azul-acolhedor)] hover:underline mt-2 inline-block">Fonte: SAP<span className="sr-only"> (abre em nova aba)</span></a>
             </div>
             <div className="bg-[var(--cor-fundo)] rounded-xl p-6 text-center border border-[var(--cor-cinza-claro)]">
               <p className="text-3xl sm:text-4xl font-bold text-[var(--cor-dourado-texto)] mb-2">

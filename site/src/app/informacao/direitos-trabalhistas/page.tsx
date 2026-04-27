@@ -225,6 +225,18 @@ export default function DireitosTrabalhistas() {
             })}
           </div>
 
+          {/* Aviso jurídico */}
+          <div className="bg-[var(--cor-fundo-secundario)] border-l-4 border-l-[var(--cor-erro)] rounded-r-xl p-5 mt-10">
+            <p className="text-sm text-[var(--cor-texto-corpo)] leading-relaxed">
+              <strong className="text-[var(--cor-texto-principal)]">Aviso:</strong>{" "}
+              As informações desta página têm caráter exclusivamente informativo e não
+              substituem orientação jurídica profissional. Em caso de dúvidas sobre seus
+              direitos, procure um advogado especializado ou a{" "}
+              <strong className="text-[var(--cor-texto-principal)]">Defensoria Pública</strong> do
+              seu estado.
+            </p>
+          </div>
+
           {/* CTA Legislação */}
           <div className="bg-[var(--cor-azul-base)] text-white rounded-xl p-6 sm:p-8 mt-10">
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">

@@ -144,8 +144,8 @@ export default function PerguntasFrequentesPage() {
             Não encontrou sua dúvida?
           </h2>
           <p className="text-[var(--cor-texto-corpo)] mb-8 max-w-xl mx-auto leading-relaxed">
-            Explore nosso conteúdo informativo ou entre em contato com os grupos
-            de ajuda para orientação personalizada.
+            Explore nosso conteúdo informativo ou visite as páginas dos grupos
+            de ajuda para orientação.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link

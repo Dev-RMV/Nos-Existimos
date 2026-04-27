@@ -198,6 +198,18 @@ export default function LegislacaoPage() {
             </p>
           </div>
 
+          {/* Aviso jurídico */}
+          <div className="bg-[var(--cor-fundo-secundario)] border-l-4 border-l-[var(--cor-erro)] rounded-r-xl p-5 mt-10">
+            <p className="text-sm text-[var(--cor-texto-corpo)] leading-relaxed">
+              <strong className="text-[var(--cor-texto-principal)]">Aviso:</strong>{" "}
+              As informações desta página têm caráter exclusivamente informativo e não
+              substituem orientação jurídica profissional. Em caso de dúvidas sobre seus
+              direitos, procure um advogado especializado ou a{" "}
+              <strong className="text-[var(--cor-texto-principal)]">Defensoria Pública</strong> do
+              seu estado.
+            </p>
+          </div>
+
           {/* Links relacionados */}
           <div className="border-t border-[var(--cor-cinza-claro)] pt-8 mt-12">
             <h2 className="text-xl font-bold text-[var(--cor-texto-principal)] mb-6">
