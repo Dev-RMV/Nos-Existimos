@@ -36,14 +36,55 @@ const navItems = [
 function DropdownDesktop({ item }: { item: (typeof navItems)[0] }) {
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const menuItemsRef = useRef<(HTMLAnchorElement | null)[]>([]);
+
+  const focusItem = useCallback((index: number) => {
+    const items = menuItemsRef.current.filter(Boolean);
+    if (items.length === 0) return;
+    const clamped = Math.max(0, Math.min(index, items.length - 1));
+    items[clamped]?.focus();
+  }, []);
 
   const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
     if (e.key === "Escape") {
       setOpen(false);
       const btn = containerRef.current?.querySelector("button");
       btn?.focus();
+      return;
     }
-  }, []);
+
+    if (!open && (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ")) {
+      e.preventDefault();
+      setOpen(true);
+      requestAnimationFrame(() => focusItem(0));
+      return;
+    }
+
+    if (open) {
+      const items = menuItemsRef.current.filter(Boolean);
+      const currentIndex = items.findIndex((el) => el === document.activeElement);
+
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        focusItem(currentIndex + 1);
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        if (currentIndex <= 0) {
+          setOpen(false);
+          const btn = containerRef.current?.querySelector("button");
+          btn?.focus();
+        } else {
+          focusItem(currentIndex - 1);
+        }
+      } else if (e.key === "Home") {
+        e.preventDefault();
+        focusItem(0);
+      } else if (e.key === "End") {
+        e.preventDefault();
+        focusItem(items.length - 1);
+      }
+    }
+  }, [open, focusItem]);
 
   return (
     <div
@@ -65,11 +106,13 @@ function DropdownDesktop({ item }: { item: (typeof navItems)[0] }) {
       {open && (
         <div className="absolute top-full left-0 pt-2 z-50">
           <div className="bg-[var(--cor-fundo)] rounded-lg shadow-lg py-2 min-w-56" role="menu">
-            {item.children.map((child) => (
+            {item.children.map((child, i) => (
               <Link
                 key={child.href}
                 href={child.href}
                 role="menuitem"
+                ref={(el) => { menuItemsRef.current[i] = el; }}
+                tabIndex={-1}
                 className="block px-4 py-2 text-sm text-[var(--cor-azul-profundo)] hover:bg-[var(--cor-cinza-claro)] transition-colors"
                 onClick={() => setOpen(false)}
               >
@@ -158,7 +201,7 @@ export default function Header() {
                 aria-label="Diminuir tamanho da fonte"
               >
                 <Minus size={14} aria-hidden="true" />
-                <span className="text-xs" aria-hidden="true">A</span>
+                <span className="text-sm" aria-hidden="true">A</span>
               </button>
               <button
                 onClick={() => changeFontSize(1)}
@@ -166,7 +209,7 @@ export default function Header() {
                 aria-label="Aumentar tamanho da fonte"
               >
                 <Plus size={14} aria-hidden="true" />
-                <span className="text-xs" aria-hidden="true">A</span>
+                <span className="text-sm" aria-hidden="true">A</span>
               </button>
               <button
                 onClick={toggleTheme}
@@ -228,12 +271,13 @@ export default function Header() {
                         className="flex items-center justify-between w-full py-3 text-[var(--cor-azul-profundo)] font-medium min-h-12"
                         onClick={() => setOpenAccordion(isOpen ? null : item.label)}
                         aria-expanded={isOpen}
+                        aria-controls={`mobile-menu-${item.label.toLowerCase().replace(/\s/g, "-")}`}
                       >
                         {item.label}
                         <ChevronDown size={16} aria-hidden="true" className={`transition-transform ${isOpen ? "rotate-180" : ""}`} />
                       </button>
                       {isOpen && (
-                        <div className="pl-4 pb-2">
+                        <div className="pl-4 pb-2" id={`mobile-menu-${item.label.toLowerCase().replace(/\s/g, "-")}`}>
                           {item.children.map((child) => (
                             <Link
                               key={child.href}

@@ -85,7 +85,7 @@ const perguntas = [
 export default function PerguntasFrequentesPage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
+      <section aria-label="Perguntas Frequentes" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
@@ -105,7 +105,7 @@ export default function PerguntasFrequentesPage() {
         </div>
       </section>
 
-      <section className="py-16">
+      <section aria-label="Lista de perguntas e respostas" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto space-y-6">
             {perguntas.map((item, index) => (
@@ -138,7 +138,7 @@ export default function PerguntasFrequentesPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Não encontrou sua dúvida?" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl font-bold mb-4">
             Nao encontrou sua duvida?

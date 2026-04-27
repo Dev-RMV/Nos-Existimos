@@ -68,7 +68,7 @@ const diretrizes = [
 export default function AcessibilidadePage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
+      <section aria-label="Acessibilidade" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb items={[{ label: "Acessibilidade" }]} />
           <div className="max-w-3xl">
@@ -84,7 +84,7 @@ export default function AcessibilidadePage() {
       </section>
 
       {/* Compromisso */}
-      <section className="py-16">
+      <section aria-label="Nosso compromisso" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
@@ -98,7 +98,7 @@ export default function AcessibilidadePage() {
                 Nosso compromisso
               </h2>
             </div>
-            <div className="space-y-4 text-[var(--cor-texto-corpo)] leading-relaxed">
+            <div className="prosa space-y-4 text-[var(--cor-texto-corpo)] leading-relaxed">
               <p>
                 O <strong className="text-[var(--cor-texto-principal)]">Nos Existimos</strong>{" "}
                 tem o compromisso de tornar este site acessivel ao maior numero
@@ -126,7 +126,7 @@ export default function AcessibilidadePage() {
       </section>
 
       {/* Principios WCAG */}
-      <section className="py-16 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Princípios WCAG 2.1" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             Principios WCAG 2.1
@@ -157,7 +157,7 @@ export default function AcessibilidadePage() {
       </section>
 
       {/* Recursos */}
-      <section className="py-16">
+      <section aria-label="Recursos disponíveis" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             Recursos disponiveis
@@ -194,7 +194,7 @@ export default function AcessibilidadePage() {
       </section>
 
       {/* Como reportar */}
-      <section className="py-16 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Encontrou um problema?" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto">
             <div className="bg-[var(--cor-fundo)] rounded-2xl p-8 sm:p-10 border border-[var(--cor-cinza-claro)] border-t-4 border-t-[var(--cor-dourado)]">
@@ -242,7 +242,7 @@ export default function AcessibilidadePage() {
       </section>
 
       {/* Ultima atualizacao */}
-      <section className="py-12">
+      <section aria-label="Última atualização" className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <p className="text-sm text-[var(--cor-cinza-texto)]">
             Ultima atualizacao desta declaracao: abril de 2026

@@ -89,7 +89,7 @@ const publico = [
 export default function SobrePage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
+      <section aria-label="Sobre o Nos Existimos" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb items={[{ label: "Sobre" }]} />
           <div className="max-w-3xl">
@@ -106,28 +106,28 @@ export default function SobrePage() {
       </section>
 
       {/* O que e */}
-      <section className="py-16">
+      <section aria-label="O que é o Nós Existimos?" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-2xl sm:text-3xl font-bold mb-6">
               O que e o &ldquo;Nos Existimos&rdquo;?
             </h2>
-            <p className="text-[var(--cor-texto-corpo)] leading-relaxed mb-4">
+            <p className="prosa text-[var(--cor-texto-corpo)] leading-relaxed mb-4">
               O <strong className="text-[var(--cor-texto-principal)]">Nos Existimos</strong> e
               um site informativo criado para dar visibilidade a uma realidade
               frequentemente ignorada: a exclusao de pessoas autistas do mercado de
               trabalho. Enquanto{" "}
-              <a href="https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap" target="_blank" rel="noopener noreferrer" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">cerca de 85% dos adultos autistas estao desempregados
+              <a href="https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">cerca de 85% dos adultos autistas estao desempregados
               ou subempregados<span className="sr-only"> (abre em nova aba)</span></a>, o preconceito e a falta de informacao continuam sendo
               as maiores barreiras.
             </p>
-            <p className="text-[var(--cor-texto-corpo)] leading-relaxed mb-4">
+            <p className="prosa text-[var(--cor-texto-corpo)] leading-relaxed mb-4">
               O nome e uma afirmacao: nos existimos, somos capazes e merecemos
               oportunidades justas. Este site reune informacoes sobre direitos,
               recursos de apoio e orientacoes para empresas, servindo como
               referencia para quem busca conhecimento sobre o tema.
             </p>
-            <p className="text-[var(--cor-texto-corpo)] leading-relaxed">
+            <p className="prosa text-[var(--cor-texto-corpo)] leading-relaxed">
               Acreditamos que a informacao e o primeiro passo para a mudanca. Por
               isso, todo o conteudo deste site e gratuito, acessivel e pensado para
               alcançar o maior numero possivel de pessoas.
@@ -137,7 +137,7 @@ export default function SobrePage() {
       </section>
 
       {/* Missao e Visao */}
-      <section className="py-16 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Missão e Valores" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10">Missão e Valores</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -170,7 +170,7 @@ export default function SobrePage() {
       </section>
 
       {/* Valores */}
-      <section className="py-16">
+      <section aria-label="Nossos Valores" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             Nossos Valores
@@ -202,7 +202,7 @@ export default function SobrePage() {
       </section>
 
       {/* A quem se destina */}
-      <section className="py-16 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="A quem se destina" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             A quem se destina
@@ -237,13 +237,13 @@ export default function SobrePage() {
       </section>
 
       {/* Por que o site existe */}
-      <section className="py-16">
+      <section aria-label="Por que este site existe" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8">
               Por que este site existe
             </h2>
-            <div className="space-y-4 text-[var(--cor-texto-corpo)] leading-relaxed">
+            <div className="prosa space-y-4 text-[var(--cor-texto-corpo)] leading-relaxed">
               <p>
                 O Brasil tem milhoes de pessoas autistas, mas a maioria permanece
                 invisivel no mercado de trabalho. Mesmo com legislacao que garante
@@ -271,7 +271,7 @@ export default function SobrePage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Faça parte dessa mudança" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl font-bold mb-6">Faca parte dessa mudanca</h2>
           <div className="flex flex-wrap justify-center gap-4">

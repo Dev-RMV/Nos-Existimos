@@ -100,7 +100,7 @@ export default function MitosEVerdadesPage() {
   return (
     <>
       {/* Header da página */}
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
+      <section aria-label="Mitos e Verdades" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
@@ -124,7 +124,7 @@ export default function MitosEVerdadesPage() {
       </section>
 
       {/* Cards de Mitos e Verdades */}
-      <section className="py-12 sm:py-16">
+      <section aria-label="Cards de mitos e verdades sobre autismo" className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="space-y-6">
             {mitos.map((item, i) => (
@@ -140,7 +140,7 @@ export default function MitosEVerdadesPage() {
                     </span>
                   </div>
                   <div>
-                    <span className="text-xs font-bold uppercase tracking-wider text-red-600 dark:text-red-400">
+                    <span className="text-sm font-bold uppercase tracking-wider text-red-600 dark:text-red-400">
                       Mito
                     </span>
                     <p className="text-[var(--cor-texto-principal)] font-semibold mt-1 leading-relaxed">
@@ -157,7 +157,7 @@ export default function MitosEVerdadesPage() {
                     </span>
                   </div>
                   <div>
-                    <span className="text-xs font-bold uppercase tracking-wider text-green-600 dark:text-green-400">
+                    <span className="text-sm font-bold uppercase tracking-wider text-green-600 dark:text-green-400">
                       Verdade
                     </span>
                     <p className="text-[var(--cor-texto-corpo)] mt-1 leading-relaxed text-sm">
@@ -171,7 +171,8 @@ export default function MitosEVerdadesPage() {
                             href={f.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-xs text-[var(--cor-azul-acolhedor)] hover:underline"
+                            lang="en"
+                            className="text-sm text-[var(--cor-azul-acolhedor)] hover:underline"
                           >
                             Fonte: {f.nome}
                           <span className="sr-only"> (abre em nova aba)</span></a>

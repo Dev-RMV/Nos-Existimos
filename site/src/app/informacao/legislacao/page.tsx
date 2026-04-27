@@ -95,7 +95,7 @@ export default function LegislacaoPage() {
   return (
     <>
       {/* Header da página */}
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
+      <section aria-label="Legislação" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
@@ -119,7 +119,7 @@ export default function LegislacaoPage() {
       </section>
 
       {/* Lista de Leis */}
-      <section className="py-12 sm:py-16">
+      <section aria-label="Lista de leis" className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="space-y-8">
             {leis.map((lei, i) => (

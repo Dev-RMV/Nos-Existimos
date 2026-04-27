@@ -127,7 +127,7 @@ export default function CasosDeSucesso() {
   return (
     <>
       {/* Header */}
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-16 sm:py-20">
+      <section aria-label="Quem já faz a diferença" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
@@ -155,7 +155,7 @@ export default function CasosDeSucesso() {
       </section>
 
       {/* Programas corporativos */}
-      <section className="py-16 sm:py-20">
+      <section aria-label="Programas corporativos de referência" className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             Programas corporativos de referência
@@ -184,7 +184,7 @@ export default function CasosDeSucesso() {
                         {emp.programa}
                       </p>
                     </div>
-                    <div className="flex items-center gap-4 text-xs text-[var(--cor-cinza-texto)]">
+                    <div className="flex items-center gap-4 text-sm text-[var(--cor-cinza-texto)]">
                       <span className="flex items-center gap-1">
                         <Globe size={14} />
                         {emp.pais}
@@ -205,7 +205,7 @@ export default function CasosDeSucesso() {
                         href={emp.fonteUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-xs text-[var(--cor-azul-acolhedor)] hover:underline inline-flex items-center gap-1"
+                        className="text-sm text-[var(--cor-azul-acolhedor)] hover:underline inline-flex items-center gap-1"
                       >
                         <ExternalLink size={12} />
                         Site oficial do programa
@@ -244,7 +244,7 @@ export default function CasosDeSucesso() {
       </section>
 
       {/* Histórias individuais */}
-      <section className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Histórias de profissionais autistas" className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             Histórias de profissionais autistas
@@ -253,7 +253,7 @@ export default function CasosDeSucesso() {
             Cada trajetória é única, mas todas compartilham uma verdade: com o ambiente
             certo, profissionais autistas prosperam.
           </p>
-          <p className="text-center text-xs text-[var(--cor-cinza-texto)] mb-12 max-w-2xl mx-auto italic">
+          <p className="text-center text-sm text-[var(--cor-cinza-texto)] mb-12 max-w-2xl mx-auto italic">
             * As histórias abaixo são ilustrativas, baseadas em experiências reais relatadas pela comunidade autista.
             Nomes e detalhes foram alterados para preservar a privacidade.
           </p>
@@ -268,7 +268,7 @@ export default function CasosDeSucesso() {
                   <p className="text-sm text-[var(--cor-azul-acolhedor)] font-semibold">
                     {h.cargo}
                   </p>
-                  <p className="text-xs text-[var(--cor-cinza-texto)]">{h.cidade}</p>
+                  <p className="text-sm text-[var(--cor-cinza-texto)]">{h.cidade}</p>
                 </div>
 
                 <p className="text-sm text-[var(--cor-texto-corpo)] leading-relaxed mb-4">
@@ -291,7 +291,7 @@ export default function CasosDeSucesso() {
       </section>
 
       {/* Dados de impacto */}
-      <section className="py-16 sm:py-20">
+      <section aria-label="Neurodiversidade em números" className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-12">
             Neurodiversidade em números
@@ -305,7 +305,7 @@ export default function CasosDeSucesso() {
                 mais rápidos em tarefas — relatório JPMorgan sobre seu programa Autism at
                 Work
               </p>
-              <a href="https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage" target="_blank" rel="noopener noreferrer" className="text-xs text-[var(--cor-azul-acolhedor)] hover:underline mt-2 inline-block">Fonte: HBR, 2017<span className="sr-only"> (abre em nova aba)</span></a>
+              <a href="https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--cor-azul-acolhedor)] hover:underline mt-2 inline-block">Fonte: HBR, 2017<span className="sr-only"> (abre em nova aba)</span></a>
             </div>
             <div className="bg-[var(--cor-fundo)] rounded-xl p-6 text-center border border-[var(--cor-cinza-claro)]">
               <p className="text-3xl sm:text-4xl font-bold text-[var(--cor-dourado-texto)] mb-2">
@@ -314,7 +314,7 @@ export default function CasosDeSucesso() {
               <p className="text-sm text-[var(--cor-texto-corpo)]">
                 de retenção entre profissionais autistas colocados pela Specialisterne
               </p>
-              <a href="https://www.specialisterne.com" target="_blank" rel="noopener noreferrer" className="text-xs text-[var(--cor-azul-acolhedor)] hover:underline mt-2 inline-block">Fonte: Specialisterne<span className="sr-only"> (abre em nova aba)</span></a>
+              <a href="https://www.specialisterne.com" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--cor-azul-acolhedor)] hover:underline mt-2 inline-block">Fonte: Specialisterne<span className="sr-only"> (abre em nova aba)</span></a>
             </div>
             <div className="bg-[var(--cor-fundo)] rounded-xl p-6 text-center border border-[var(--cor-cinza-claro)]">
               <p className="text-3xl sm:text-4xl font-bold text-[var(--cor-dourado-texto)] mb-2">
@@ -323,7 +323,7 @@ export default function CasosDeSucesso() {
               <p className="text-sm text-[var(--cor-texto-corpo)]">
                 colaboradores autistas contratados pela SAP em mais de 15 países
               </p>
-              <a href="https://www.sap.com/about/company/diversity/differently-abled.html" target="_blank" rel="noopener noreferrer" className="text-xs text-[var(--cor-azul-acolhedor)] hover:underline mt-2 inline-block">Fonte: SAP<span className="sr-only"> (abre em nova aba)</span></a>
+              <a href="https://www.sap.com/about/company/diversity/differently-abled.html" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--cor-azul-acolhedor)] hover:underline mt-2 inline-block">Fonte: SAP<span className="sr-only"> (abre em nova aba)</span></a>
             </div>
             <div className="bg-[var(--cor-fundo)] rounded-xl p-6 text-center border border-[var(--cor-cinza-claro)]">
               <p className="text-3xl sm:text-4xl font-bold text-[var(--cor-dourado-texto)] mb-2">
@@ -332,14 +332,14 @@ export default function CasosDeSucesso() {
               <p className="text-sm text-[var(--cor-texto-corpo)]">
                 mais produtivos — profissionais do programa de neurodiversidade da JPMorgan
               </p>
-              <a href="https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage" target="_blank" rel="noopener noreferrer" className="text-xs text-[var(--cor-azul-acolhedor)] hover:underline mt-2 inline-block">Fonte: HBR, 2017<span className="sr-only"> (abre em nova aba)</span></a>
+              <a href="https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage" target="_blank" rel="noopener noreferrer" className="text-sm text-[var(--cor-azul-acolhedor)] hover:underline mt-2 inline-block">Fonte: HBR, 2017<span className="sr-only"> (abre em nova aba)</span></a>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Sua empresa quer fazer parte dessa lista?" className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <div className="max-w-2xl mx-auto">
             <Sparkles size={40} className="text-[var(--cor-dourado)] mx-auto mb-4" aria-hidden="true" />
@@ -371,7 +371,7 @@ export default function CasosDeSucesso() {
       </section>
 
       {/* Links relacionados */}
-      <section className="py-12">
+      <section aria-label="Conteúdos relacionados" className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-lg font-bold mb-6">Conteúdos relacionados</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -382,7 +382,7 @@ export default function CasosDeSucesso() {
               <h3 className="font-semibold text-sm mb-1 group-hover:text-[var(--cor-azul-acolhedor)]">
                 Guia para Empresas
               </h3>
-              <p className="text-xs text-[var(--cor-texto-corpo)]">
+              <p className="text-sm text-[var(--cor-texto-corpo)]">
                 Passo a passo para implementar inclusão na sua empresa.
               </p>
             </Link>
@@ -393,7 +393,7 @@ export default function CasosDeSucesso() {
               <h3 className="font-semibold text-sm mb-1 group-hover:text-[var(--cor-azul-acolhedor)]">
                 Guia para Autistas
               </h3>
-              <p className="text-xs text-[var(--cor-texto-corpo)]">
+              <p className="text-sm text-[var(--cor-texto-corpo)]">
                 Direitos, dicas e organizações de apoio para profissionais.
               </p>
             </Link>
@@ -404,7 +404,7 @@ export default function CasosDeSucesso() {
               <h3 className="font-semibold text-sm mb-1 group-hover:text-[var(--cor-azul-acolhedor)]">
                 O que é Autismo
               </h3>
-              <p className="text-xs text-[var(--cor-texto-corpo)]">
+              <p className="text-sm text-[var(--cor-texto-corpo)]">
                 Entenda o Transtorno do Espectro Autista com informações confiáveis.
               </p>
             </Link>

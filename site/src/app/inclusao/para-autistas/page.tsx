@@ -166,7 +166,7 @@ export default function ParaAutistas() {
   return (
     <>
       {/* Header */}
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-16 sm:py-20">
+      <section aria-label="Guia para profissionais autistas" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
@@ -193,7 +193,7 @@ export default function ParaAutistas() {
       </section>
 
       {/* Conheça seus direitos */}
-      <section className="py-16 sm:py-20">
+      <section aria-label="Conheça seus direitos" className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             Conheça seus direitos
@@ -238,7 +238,7 @@ export default function ParaAutistas() {
       </section>
 
       {/* Identifique seus pontos fortes */}
-      <section className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Identifique seus pontos fortes" className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             Identifique seus pontos fortes
@@ -265,7 +265,7 @@ export default function ParaAutistas() {
       </section>
 
       {/* Prepare-se para entrevistas */}
-      <section className="py-16 sm:py-20">
+      <section aria-label="Prepare-se para entrevistas" className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             Prepare-se para entrevistas
@@ -305,7 +305,7 @@ export default function ParaAutistas() {
       </section>
 
       {/* Adaptações que pode solicitar */}
-      <section className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Adaptações que você pode solicitar" className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
@@ -343,7 +343,7 @@ export default function ParaAutistas() {
       </section>
 
       {/* Disclosure */}
-      <section className="py-16 sm:py-20">
+      <section aria-label="Contar ou não o diagnóstico?" className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center justify-center gap-3 mb-4">
@@ -423,7 +423,7 @@ export default function ParaAutistas() {
       </section>
 
       {/* Organizações de apoio */}
-      <section className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Organizações que podem ajudar" className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             Organizações que podem ajudar
@@ -457,7 +457,7 @@ export default function ParaAutistas() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 sm:py-20">
+      <section aria-label="Você não está sozinho" className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <div className="max-w-2xl mx-auto">
             <Sparkles size={40} className="text-[var(--cor-dourado)] mx-auto mb-4" aria-hidden="true" />
@@ -480,7 +480,7 @@ export default function ParaAutistas() {
       </section>
 
       {/* Links relacionados */}
-      <section className="py-12 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Conteúdos relacionados" className="py-12 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-lg font-bold mb-6">Conteúdos relacionados</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -491,7 +491,7 @@ export default function ParaAutistas() {
               <h3 className="font-semibold text-sm mb-1 group-hover:text-[var(--cor-azul-acolhedor)]">
                 Guia para Empresas
               </h3>
-              <p className="text-xs text-[var(--cor-texto-corpo)]">
+              <p className="text-sm text-[var(--cor-texto-corpo)]">
                 Compartilhe com seu empregador para promover inclusão.
               </p>
             </Link>
@@ -502,7 +502,7 @@ export default function ParaAutistas() {
               <h3 className="font-semibold text-sm mb-1 group-hover:text-[var(--cor-azul-acolhedor)]">
                 Direitos Trabalhistas
               </h3>
-              <p className="text-xs text-[var(--cor-texto-corpo)]">
+              <p className="text-sm text-[var(--cor-texto-corpo)]">
                 Legislação detalhada sobre seus direitos no trabalho.
               </p>
             </Link>
@@ -513,7 +513,7 @@ export default function ParaAutistas() {
               <h3 className="font-semibold text-sm mb-1 group-hover:text-[var(--cor-azul-acolhedor)]">
                 Grupos de Ajuda
               </h3>
-              <p className="text-xs text-[var(--cor-texto-corpo)]">
+              <p className="text-sm text-[var(--cor-texto-corpo)]">
                 Comunidades e redes de apoio para autistas.
               </p>
             </Link>

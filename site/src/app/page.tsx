@@ -2,10 +2,10 @@ import Link from "next/link";
 import { BookOpen, Briefcase, Heart, Users, Scale, Brain, ArrowRight } from "lucide-react";
 
 const stats = [
-  { value: "85%", label: "dos autistas adultos estão desempregados ou subempregados", fonte: "National Autistic Society", fonteUrl: "https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap" },
-  { value: "1 em 36", label: "crianças é diagnosticada com autismo", fonte: "CDC, 2023", fonteUrl: "https://www.cdc.gov/mmwr/volumes/72/ss/ss7202a1.htm" },
+  { value: "85%", label: "dos autistas adultos estão desempregados ou subempregados", fonte: "National Autistic Society", fonteUrl: "https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap", fonteLang: "en" },
+  { value: "1 em 36", label: "crianças é diagnosticada com autismo", fonte: "CDC, 2023", fonteUrl: "https://www.cdc.gov/mmwr/volumes/72/ss/ss7202a1.htm", fonteLang: "en" },
   { value: "Lei 12.764", label: "garante direitos à pessoa com TEA desde 2012", fonte: "Planalto", fonteUrl: "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm" },
-  { value: "70 milhões", label: "de pessoas autistas no mundo", fonte: "OMS", fonteUrl: "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders" },
+  { value: "70 milhões", label: "de pessoas autistas no mundo", fonte: "OMS", fonteUrl: "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders", fonteLang: "en" },
 ];
 
 const pillars = [
@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-20 sm:py-28">
+      <section aria-label="Introdução" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-white mb-6">
@@ -66,7 +66,7 @@ export default function Home() {
       </section>
 
       {/* Dados de impacto */}
-      <section className="py-16 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="O autismo em números" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-12">
             O autismo em números
@@ -88,7 +88,8 @@ export default function Home() {
                     href={stat.fonteUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs text-[var(--cor-azul-acolhedor)] hover:underline mt-1 inline-block"
+                    lang={stat.fonteLang}
+                    className="text-sm text-[var(--cor-azul-acolhedor)] hover:underline mt-1 inline-block"
                   >
                     Fonte: {stat.fonte} <span className="sr-only">(abre em nova aba)</span>
                   </a>
@@ -100,7 +101,7 @@ export default function Home() {
       </section>
 
       {/* Pilares */}
-      <section className="py-16 sm:py-20">
+      <section aria-label="O que você encontra aqui" className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             O que você encontra aqui
@@ -125,7 +126,7 @@ export default function Home() {
                     {pillar.description}
                   </p>
                   <span className="text-sm font-semibold text-[var(--cor-azul-acolhedor)] group-hover:underline inline-flex items-center gap-1">
-                    Saiba mais <ArrowRight size={14} aria-hidden="true" />
+                    Saiba mais<span className="sr-only"> sobre {pillar.title}</span> <ArrowRight size={14} aria-hidden="true" />
                   </span>
                 </Link>
               );
@@ -135,7 +136,7 @@ export default function Home() {
       </section>
 
       {/* CTA Empresas */}
-      <section className="py-16 sm:py-20">
+      <section aria-label="Inclusão para empresas" className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <div className="max-w-2xl mx-auto">
             <Users size={40} className="text-[var(--cor-dourado)] mx-auto mb-4" aria-hidden="true" />
@@ -165,7 +166,7 @@ export default function Home() {
       </section>
 
       {/* Seção de Direitos */}
-      <section className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Conheça seus direitos" className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-12">
             Conheça seus direitos

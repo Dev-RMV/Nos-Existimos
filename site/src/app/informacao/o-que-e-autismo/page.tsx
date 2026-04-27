@@ -33,7 +33,7 @@ export default function OQueEAutismoPage() {
   return (
     <>
       {/* Header da página */}
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
+      <section aria-label="O que é Autismo" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
@@ -57,7 +57,7 @@ export default function OQueEAutismoPage() {
       </section>
 
       {/* Conteúdo principal + Sidebar */}
-      <section className="py-12 sm:py-16">
+      <section aria-label="Conteúdo sobre o autismo" className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex flex-col lg:flex-row gap-10">
             {/* Conteúdo principal */}
@@ -70,7 +70,7 @@ export default function OQueEAutismoPage() {
                     Definição
                   </h2>
                 </div>
-                <div className="prose max-w-none space-y-4 text-[var(--cor-texto-corpo)] leading-relaxed">
+                <div className="prose space-y-4 text-[var(--cor-texto-corpo)] leading-relaxed" style={{ maxWidth: "72ch" }}>
                   <p>
                     O <strong className="text-[var(--cor-texto-principal)]">Transtorno do Espectro Autista (TEA)</strong> é
                     uma condição do neurodesenvolvimento que afeta a forma como a pessoa percebe o mundo,
@@ -85,7 +85,7 @@ export default function OQueEAutismoPage() {
                   </p>
                   <p>
                     De acordo com a{" "}
-                    <a href="https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders" target="_blank" rel="noopener noreferrer" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">Organização Mundial da Saúde (OMS)<span className="sr-only"> (abre em nova aba)</span></a>,
+                    <a href="https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">Organização Mundial da Saúde (OMS)<span className="sr-only"> (abre em nova aba)</span></a>,
                     estima-se que 1 em cada 100 crianças no mundo esteja no espectro autista. No Brasil, estudos recentes sugerem
                     uma prevalência semelhante, o que significa que existem cerca de 2 milhões de
                     pessoas autistas no país.
@@ -97,7 +97,7 @@ export default function OQueEAutismoPage() {
                     <p className="text-sm">
                       O autismo não é causado por vacinas, má criação ou traumas. É uma condição
                       neurobiológica com forte componente genético, presente desde o nascimento.
-                      (<a href="https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders" target="_blank" rel="noopener noreferrer" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">OMS<span className="sr-only"> (abre em nova aba)</span></a>)
+                      (<a href="https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">OMS<span className="sr-only"> (abre em nova aba)</span></a>)
                     </p>
                   </div>
                 </div>
@@ -177,7 +177,7 @@ export default function OQueEAutismoPage() {
                   </p>
                   <p>
                     Atualmente, o{" "}
-                    <a href="https://www.psychiatry.org/psychiatrists/practice/dsm" target="_blank" rel="noopener noreferrer" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">DSM-5<span className="sr-only"> (abre em nova aba)</span></a>{" "}
+                    <a href="https://www.psychiatry.org/psychiatrists/practice/dsm" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">DSM-5<span className="sr-only"> (abre em nova aba)</span></a>{" "}
                     (Manual Diagnóstico e Estatístico de Transtornos Mentais)
                     classifica o TEA em três níveis de suporte:
                   </p>
@@ -294,7 +294,7 @@ export default function OQueEAutismoPage() {
                   <p>
                     A realidade das pessoas autistas no mercado de trabalho brasileiro é alarmante.
                     Estima-se que <strong className="text-[var(--cor-texto-principal)]">cerca de 85%
-                    dos adultos autistas estejam desempregados ou subempregados</strong> (<a href="https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap" target="_blank" rel="noopener noreferrer" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">National Autistic Society<span className="sr-only"> (abre em nova aba)</span></a>), mesmo aqueles
+                    dos adultos autistas estejam desempregados ou subempregados</strong> (<a href="https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">National Autistic Society<span className="sr-only"> (abre em nova aba)</span></a>), mesmo aqueles
                     com formação acadêmica e habilidades técnicas relevantes.
                   </p>
                   <p>

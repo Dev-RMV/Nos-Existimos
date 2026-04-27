@@ -166,7 +166,7 @@ function GrupoCard({
 export default function GruposDeAjudaPage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
+      <section aria-label="Grupos de Ajuda" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
@@ -187,7 +187,7 @@ export default function GruposDeAjudaPage() {
       </section>
 
       {/* Nacionais */}
-      <section className="py-16">
+      <section aria-label="Organizações Nacionais" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-10 h-10 rounded-lg bg-[var(--cor-dourado)]/10 flex items-center justify-center">
@@ -206,7 +206,7 @@ export default function GruposDeAjudaPage() {
       </section>
 
       {/* Internacionais */}
-      <section className="py-16 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Organizações Internacionais" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-10 h-10 rounded-lg bg-[var(--cor-dourado)]/10 flex items-center justify-center">
@@ -225,7 +225,7 @@ export default function GruposDeAjudaPage() {
       </section>
 
       {/* Inclusão Profissional */}
-      <section className="py-16">
+      <section aria-label="Inclusão Profissional" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-10 h-10 rounded-lg bg-[var(--cor-dourado)]/10 flex items-center justify-center">
@@ -249,7 +249,7 @@ export default function GruposDeAjudaPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Precisa de ajuda agora?" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <HandHeart
             size={40}

@@ -17,7 +17,7 @@ export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
         </li>
         {items.map((item, i) => (
           <li key={i} className="flex items-center gap-1">
-            <ChevronRight size={14} aria-hidden="true" className="text-white/60" />
+            <ChevronRight size={14} aria-hidden="true" className="text-white/80" />
             {item.href ? (
               <Link href={item.href} className="hover:text-white transition-colors underline decoration-white/40 hover:decoration-white">
                 {item.label}

@@ -119,7 +119,7 @@ export default function DireitosTrabalhistas() {
   return (
     <>
       {/* Header da página */}
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
+      <section aria-label="Direitos Trabalhistas" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
@@ -143,7 +143,7 @@ export default function DireitosTrabalhistas() {
       </section>
 
       {/* Alerta informativo */}
-      <section className="py-8">
+      <section aria-label="Alerta informativo sobre direitos" className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="bg-[var(--cor-fundo-secundario)] border-l-4 border-l-[var(--cor-dourado)] rounded-r-xl p-5">
             <p className="text-sm text-[var(--cor-texto-corpo)] leading-relaxed">
@@ -161,7 +161,7 @@ export default function DireitosTrabalhistas() {
       </section>
 
       {/* Seções de Direitos */}
-      <section className="pb-12 sm:pb-16">
+      <section aria-label="Seções de direitos trabalhistas" className="pb-12 sm:pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="space-y-8">
             {direitos.map((item, i) => {
@@ -192,7 +192,7 @@ export default function DireitosTrabalhistas() {
                           href={item.fonteUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-xs text-[var(--cor-azul-acolhedor)] hover:underline inline-flex items-center gap-1"
+                          className="text-sm text-[var(--cor-azul-acolhedor)] hover:underline inline-flex items-center gap-1"
                         >
                           <ExternalLink size={12} />
                           Ler texto oficial da lei

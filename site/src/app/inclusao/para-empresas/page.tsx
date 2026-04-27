@@ -152,7 +152,7 @@ export default function ParaEmpresas() {
   return (
     <>
       {/* Header da página */}
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-16 sm:py-20">
+      <section aria-label="Inclusão de autistas na sua empresa" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
@@ -179,7 +179,7 @@ export default function ParaEmpresas() {
       </section>
 
       {/* Por que contratar */}
-      <section className="py-16 sm:py-20">
+      <section aria-label="Por que contratar profissionais autistas?" className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             Por que contratar profissionais autistas?
@@ -208,7 +208,7 @@ export default function ParaEmpresas() {
                       href={b.fonte.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-xs text-[var(--cor-azul-acolhedor)] hover:underline mt-2 inline-block"
+                      className="text-sm text-[var(--cor-azul-acolhedor)] hover:underline mt-2 inline-block"
                     >
                       Fonte: {b.fonte.nome}
                     <span className="sr-only"> (abre em nova aba)</span></a>
@@ -221,7 +221,7 @@ export default function ParaEmpresas() {
       </section>
 
       {/* 5 Passos - Timeline */}
-      <section className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Como começar: 5 passos essenciais" className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             Como começar: 5 passos essenciais
@@ -252,7 +252,7 @@ export default function ParaEmpresas() {
                         size={16}
                         className="text-[var(--cor-dourado)] flex-shrink-0 mt-0.5"
                       />
-                      <p className="text-xs text-[var(--cor-texto-corpo)]">
+                      <p className="text-sm text-[var(--cor-texto-corpo)]">
                         <strong>Dica:</strong> {passo.dica}
                       </p>
                     </div>
@@ -265,7 +265,7 @@ export default function ParaEmpresas() {
       </section>
 
       {/* Adaptações no ambiente */}
-      <section className="py-16 sm:py-20">
+      <section aria-label="Adaptações no ambiente de trabalho" className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             Adaptações no ambiente de trabalho
@@ -304,7 +304,7 @@ export default function ParaEmpresas() {
       </section>
 
       {/* Legislação resumida */}
-      <section className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="O que diz a legislação" className="py-16 sm:py-20 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
             O que diz a legislação
@@ -317,7 +317,7 @@ export default function ParaEmpresas() {
             <div className="bg-[var(--cor-fundo)] rounded-xl p-6 border border-[var(--cor-cinza-claro)] border-t-4 border-t-[var(--cor-dourado)]">
               <Scale size={28} className="text-[var(--cor-dourado)] mb-3" aria-hidden="true" />
               <h3 className="font-bold mb-2">Lei Berenice Piana</h3>
-              <p className="text-xs text-[var(--cor-cinza-texto)] mb-2">Lei 12.764/2012</p>
+              <p className="text-sm text-[var(--cor-cinza-texto)] mb-2">Lei 12.764/2012</p>
               <p className="text-sm text-[var(--cor-texto-corpo)] leading-relaxed">
                 Reconhece o autista como pessoa com deficiência para todos os efeitos legais,
                 garantindo acesso a trabalho, educação e saúde.
@@ -326,7 +326,7 @@ export default function ParaEmpresas() {
             <div className="bg-[var(--cor-fundo)] rounded-xl p-6 border border-[var(--cor-cinza-claro)] border-t-4 border-t-[var(--cor-dourado)]">
               <Users size={28} className="text-[var(--cor-dourado)] mb-3" aria-hidden="true" />
               <h3 className="font-bold mb-2">Lei de Cotas</h3>
-              <p className="text-xs text-[var(--cor-cinza-texto)] mb-2">Lei 8.213/1991</p>
+              <p className="text-sm text-[var(--cor-cinza-texto)] mb-2">Lei 8.213/1991</p>
               <p className="text-sm text-[var(--cor-texto-corpo)] leading-relaxed">
                 Empresas com 100+ funcionários devem reservar de 2% a 5% das vagas para PcD.
                 Autistas com laudo são elegíveis para essas vagas.
@@ -335,7 +335,7 @@ export default function ParaEmpresas() {
             <div className="bg-[var(--cor-fundo)] rounded-xl p-6 border border-[var(--cor-cinza-claro)] border-t-4 border-t-[var(--cor-dourado)]">
               <ShieldCheck size={28} className="text-[var(--cor-dourado)] mb-3" aria-hidden="true" />
               <h3 className="font-bold mb-2">Estatuto da PcD</h3>
-              <p className="text-xs text-[var(--cor-cinza-texto)] mb-2">Lei 13.146/2015</p>
+              <p className="text-sm text-[var(--cor-cinza-texto)] mb-2">Lei 13.146/2015</p>
               <p className="text-sm text-[var(--cor-texto-corpo)] leading-relaxed">
                 Garante adaptação razoável no ambiente de trabalho e proíbe discriminação em
                 processos seletivos e no exercício profissional.
@@ -354,7 +354,7 @@ export default function ParaEmpresas() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 sm:py-20">
+      <section aria-label="Veja quem já está fazendo a diferença" className="py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
           <div className="max-w-2xl mx-auto">
             <Sparkles size={40} className="text-[var(--cor-dourado)] mx-auto mb-4" aria-hidden="true" />
@@ -363,9 +363,9 @@ export default function ParaEmpresas() {
             </h2>
             <p className="text-[var(--cor-texto-corpo)] mb-8 leading-relaxed">
               Empresas como{" "}
-              <a href="https://www.sap.com/about/company/diversity/differently-abled.html" target="_blank" rel="noopener noreferrer" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">SAP<span className="sr-only"> (abre em nova aba)</span></a>,{" "}
-              <a href="https://www.microsoft.com/en-us/diversity/inside-microsoft/cross-disability/neurodiversityhiring" target="_blank" rel="noopener noreferrer" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">Microsoft<span className="sr-only"> (abre em nova aba)</span></a> e{" "}
-              <a href="https://auticon.com" target="_blank" rel="noopener noreferrer" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">Auticon<span className="sr-only"> (abre em nova aba)</span></a>{" "}
+              <a href="https://www.sap.com/about/company/diversity/differently-abled.html" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">SAP<span className="sr-only"> (abre em nova aba)</span></a>,{" "}
+              <a href="https://www.microsoft.com/en-us/diversity/inside-microsoft/cross-disability/neurodiversityhiring" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">Microsoft<span className="sr-only"> (abre em nova aba)</span></a> e{" "}
+              <a href="https://auticon.com" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">Auticon<span className="sr-only"> (abre em nova aba)</span></a>{" "}
               já colhem os frutos da inclusão de profissionais autistas. Conheça seus programas e resultados.
             </p>
             <Link
@@ -380,7 +380,7 @@ export default function ParaEmpresas() {
       </section>
 
       {/* Links relacionados */}
-      <section className="py-12 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Conteúdos relacionados" className="py-12 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-lg font-bold mb-6">Conteúdos relacionados</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -391,7 +391,7 @@ export default function ParaEmpresas() {
               <h3 className="font-semibold text-sm mb-1 group-hover:text-[var(--cor-azul-acolhedor)]">
                 Guia para Autistas
               </h3>
-              <p className="text-xs text-[var(--cor-texto-corpo)]">
+              <p className="text-sm text-[var(--cor-texto-corpo)]">
                 Direitos, dicas de entrevista e organizações de apoio.
               </p>
             </Link>
@@ -402,7 +402,7 @@ export default function ParaEmpresas() {
               <h3 className="font-semibold text-sm mb-1 group-hover:text-[var(--cor-azul-acolhedor)]">
                 Casos de Sucesso
               </h3>
-              <p className="text-xs text-[var(--cor-texto-corpo)]">
+              <p className="text-sm text-[var(--cor-texto-corpo)]">
                 Empresas que lideram programas de neurodiversidade.
               </p>
             </Link>
@@ -413,7 +413,7 @@ export default function ParaEmpresas() {
               <h3 className="font-semibold text-sm mb-1 group-hover:text-[var(--cor-azul-acolhedor)]">
                 Direitos Trabalhistas
               </h3>
-              <p className="text-xs text-[var(--cor-texto-corpo)]">
+              <p className="text-sm text-[var(--cor-texto-corpo)]">
                 Legislação detalhada sobre inclusão no trabalho.
               </p>
             </Link>

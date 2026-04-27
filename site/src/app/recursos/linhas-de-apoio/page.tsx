@@ -118,7 +118,7 @@ const apps = [
 export default function LinhasDeApoioPage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
+      <section aria-label="Linhas de Apoio" className="bg-gradient-to-br from-[var(--cor-azul-base)] to-[var(--cor-azul-base-claro)] text-white py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
@@ -139,7 +139,7 @@ export default function LinhasDeApoioPage() {
       </section>
 
       {/* Destaque CVV */}
-      <section className="py-12 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Precisa conversar?" className="py-12 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="bg-[var(--cor-fundo)] rounded-2xl p-8 sm:p-10 border-2 border-[var(--cor-dourado)] shadow-lg text-center">
             <div className="w-16 h-16 rounded-full bg-[var(--cor-dourado)]/10 flex items-center justify-center mx-auto mb-4">
@@ -185,7 +185,7 @@ export default function LinhasDeApoioPage() {
       </section>
 
       {/* Linhas de Emergência */}
-      <section className="py-16">
+      <section aria-label="Linhas de Emergência" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-10 h-10 rounded-lg bg-[var(--cor-dourado)]/10 flex items-center justify-center">
@@ -248,7 +248,7 @@ export default function LinhasDeApoioPage() {
       </section>
 
       {/* Canais Online */}
-      <section className="py-16 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Canais Online" className="py-16 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-10 h-10 rounded-lg bg-[var(--cor-dourado)]/10 flex items-center justify-center">
@@ -289,7 +289,7 @@ export default function LinhasDeApoioPage() {
       </section>
 
       {/* Apps de Apoio */}
-      <section className="py-16">
+      <section aria-label="Aplicativos de Apoio" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-10 h-10 rounded-lg bg-[var(--cor-dourado)]/10 flex items-center justify-center">
@@ -325,7 +325,7 @@ export default function LinhasDeApoioPage() {
       </section>
 
       {/* Nota */}
-      <section className="py-12 bg-[var(--cor-fundo-secundario)]">
+      <section aria-label="Nota importante sobre emergências" className="py-12 bg-[var(--cor-fundo-secundario)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="bg-[var(--cor-fundo)] rounded-xl p-6 border border-[var(--cor-cinza-claro)] max-w-3xl mx-auto text-center">
             <p className="text-sm text-[var(--cor-texto-corpo)] leading-relaxed">
