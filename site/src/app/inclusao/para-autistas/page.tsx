@@ -164,7 +164,7 @@ export default function ParaAutistas() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
-              { label: "Inclusão", href: "/inclusao/para-autistas" },
+              { label: "Inclusão" },
               { label: "Guia para Autistas" },
             ]}
           />

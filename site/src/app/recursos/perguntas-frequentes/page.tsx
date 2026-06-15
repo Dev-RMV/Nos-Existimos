@@ -89,7 +89,7 @@ export default function PerguntasFrequentesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
-              { label: "Recursos", href: "/recursos" },
+              { label: "Recursos" },
               { label: "Perguntas Frequentes" },
             ]}
           />

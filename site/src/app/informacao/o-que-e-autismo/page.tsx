@@ -37,7 +37,7 @@ export default function OQueEAutismoPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
-              { label: "Informação", href: "/informacao" },
+              { label: "Informação" },
               { label: "O que é Autismo" },
             ]}
           />

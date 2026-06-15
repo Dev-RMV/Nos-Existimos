@@ -156,7 +156,7 @@ export default function ParaEmpresas() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
-              { label: "Inclusão", href: "/inclusao/para-empresas" },
+              { label: "Inclusão" },
               { label: "Guia para Empresas" },
             ]}
           />

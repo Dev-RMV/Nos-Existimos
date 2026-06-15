@@ -116,7 +116,7 @@ export default function CasosDeSucesso() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
-              { label: "Inclusão", href: "/inclusao/para-empresas" },
+              { label: "Inclusão" },
               { label: "Casos de Sucesso" },
             ]}
           />

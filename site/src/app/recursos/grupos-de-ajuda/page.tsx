@@ -138,7 +138,7 @@ export default function GruposDeAjudaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
-              { label: "Recursos", href: "/recursos" },
+              { label: "Recursos" },
               { label: "Grupos de Ajuda" },
             ]}
           />

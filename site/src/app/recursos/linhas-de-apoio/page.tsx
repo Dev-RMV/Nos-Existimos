@@ -112,7 +112,7 @@ export default function LinhasDeApoioPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
-              { label: "Recursos", href: "/recursos" },
+              { label: "Recursos" },
               { label: "Linhas de Apoio" },
             ]}
           />

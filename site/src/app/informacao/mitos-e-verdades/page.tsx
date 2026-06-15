@@ -104,7 +104,7 @@ export default function MitosEVerdadesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <Breadcrumb
             items={[
-              { label: "Informação", href: "/informacao" },
+              { label: "Informação" },
               { label: "Mitos e Verdades" },
             ]}
           />
