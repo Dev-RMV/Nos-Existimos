@@ -2,10 +2,10 @@ import Link from "next/link";
 import { BookOpen, Briefcase, Heart, Users, Scale, Brain, ArrowRight } from "lucide-react";
 
 const stats = [
-  { value: "85%", label: "dos autistas adultos estão desempregados ou subempregados", fonte: "National Autistic Society", fonteUrl: "https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap", fonteLang: "en" },
+  { value: "22%", label: "dos adultos autistas estão empregados (Reino Unido)", fonte: "National Autistic Society", fonteUrl: "https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap", fonteLang: "en" },
   { value: "1 em 36", label: "crianças é diagnosticada com autismo", fonte: "CDC, 2023", fonteUrl: "https://www.cdc.gov/mmwr/volumes/72/ss/ss7202a1.htm", fonteLang: "en" },
   { value: "Lei 12.764", label: "garante direitos à pessoa com TEA desde 2012", fonte: "Planalto", fonteUrl: "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm" },
-  { value: "70 milhões", label: "de pessoas autistas no mundo", fonte: "OMS", fonteUrl: "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders", fonteLang: "en" },
+  { value: "1 em 127", label: "pessoas no mundo está no espectro autista", fonte: "OMS, 2021", fonteUrl: "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders", fonteLang: "en" },
 ];
 
 const pillars = [

@@ -86,8 +86,8 @@ export default function OQueEAutismoPage() {
                   <p>
                     De acordo com a{" "}
                     <a href="https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">Organização Mundial da Saúde (OMS)<span className="sr-only"> (abre em nova aba)</span></a>,
-                    estima-se que 1 em cada 100 crianças no mundo esteja no espectro autista. No Brasil, estudos recentes sugerem
-                    uma prevalência semelhante, o que significa que existem cerca de 2 milhões de
+                    estima-se que, em 2021, cerca de 1 em cada 127 pessoas no mundo estivesse no espectro autista. No Brasil,
+                    estudos sugerem que existem cerca de 2 milhões de
                     pessoas autistas no país.
                   </p>
                   <div className="bg-[var(--cor-fundo-secundario)] border-l-4 border-l-[var(--cor-dourado)] rounded-r-lg p-5">
@@ -292,9 +292,9 @@ export default function OQueEAutismoPage() {
                 </div>
                 <div className="space-y-4 text-[var(--cor-texto-corpo)] leading-relaxed">
                   <p>
-                    A realidade das pessoas autistas no mercado de trabalho brasileiro é alarmante.
-                    Estima-se que <strong className="text-[var(--cor-texto-principal)]">cerca de 85%
-                    dos adultos autistas estejam desempregados ou subempregados</strong> (<a href="https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">National Autistic Society<span className="sr-only"> (abre em nova aba)</span></a>), mesmo aqueles
+                    A realidade das pessoas autistas no mercado de trabalho é alarmante.
+                    No Reino Unido, <strong className="text-[var(--cor-texto-principal)]">apenas cerca de 22%
+                    dos adultos autistas estão empregados</strong> (<a href="https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">National Autistic Society<span className="sr-only"> (abre em nova aba)</span></a>), mesmo entre aqueles
                     com formação acadêmica e habilidades técnicas relevantes.
                   </p>
                   <p>

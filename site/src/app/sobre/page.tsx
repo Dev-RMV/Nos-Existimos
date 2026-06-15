@@ -117,8 +117,8 @@ export default function SobrePage() {
               um site informativo criado para dar visibilidade a uma realidade
               frequentemente ignorada: a exclusão de pessoas autistas do mercado de
               trabalho. Enquanto{" "}
-              <a href="https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">cerca de 85% dos adultos autistas estão desempregados
-              ou subempregados<span className="sr-only"> (abre em nova aba)</span></a>, o preconceito e a falta de informação continuam sendo
+              <a href="https://www.autism.org.uk/what-we-do/news/new-data-on-the-autism-employment-gap" target="_blank" rel="noopener noreferrer" lang="en" className="text-[var(--cor-azul-acolhedor)] underline hover:brightness-125">apenas cerca de 22% dos adultos autistas estão
+              empregados no Reino Unido<span className="sr-only"> (abre em nova aba)</span></a>, o preconceito e a falta de informação continuam sendo
               as maiores barreiras.
             </p>
             <p className="prosa text-[var(--cor-texto-corpo)] leading-relaxed mb-4">

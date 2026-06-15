@@ -96,13 +96,6 @@ const apps = [
     playStore: "https://play.google.com/store/apps/details?id=br.com.app.gpu1622660.gpu9b5c43256d3faa5c3ad1ef7369f09620",
     appStore: "https://apps.apple.com/br/app/querida-ansiedade/id1214993682",
   },
-  {
-    nome: "TODXS",
-    descricao:
-      "App para denúncias de discriminação e violência contra minorias. Permite registrar ocorrências e encontrar apoio jurídico.",
-    playStore: "https://play.google.com/store/apps/details?id=com.todxs",
-    appStore: "https://apps.apple.com/br/app/todxs-app/id1451459660",
-  },
 ];
 
 export default function LinhasDeApoioPage() {

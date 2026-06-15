@@ -145,7 +145,7 @@ const organizacoes = [
   {
     nome: "AACD",
     descricao:
-      "Associação de Assistência à Criança Deficiente oferece programas de reabilitação e inclusão profissional para pessoas com deficiência.",
+      "Associação de Assistência à Criança Deficiente — referência em reabilitação física e desenvolvimento de autonomia para pessoas com deficiência.",
     url: "https://aacd.org.br",
   },
   {

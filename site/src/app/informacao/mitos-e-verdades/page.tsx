@@ -15,7 +15,7 @@ const mitos = [
     verdade:
       "Pessoas autistas sentem emoções intensamente. O que pode variar é a forma como expressam ou interpretam emoções dos outros. Muitos autistas possuem empatia profunda, mas podem demonstrá-la de maneiras diferentes do esperado socialmente.",
     fontes: [
-      { nome: "NIH — Empathy in Autism", url: "https://pubmed.ncbi.nlm.nih.gov/19639354/" },
+      { nome: "PubMed — Empatia e Autismo (2024)", url: "https://pubmed.ncbi.nlm.nih.gov/39115741/" },
     ],
   },
   {
@@ -68,7 +68,7 @@ const mitos = [
     verdade:
       "O autismo tem base neurobiológica e forte componente genético. A teoria da 'mãe geladeira', que culpava os pais, foi completamente refutada pela ciência há décadas. Pais de autistas precisam de apoio, não de culpa.",
     fontes: [
-      { nome: "NIH — Genética do Autismo", url: "https://www.genome.gov/Genetic-Disorders/Autism-Spectrum-Disorder" },
+      { nome: "NIH — Genética do Autismo", url: "https://www.genome.gov/genetics-glossary/Autism" },
     ],
   },
   {
