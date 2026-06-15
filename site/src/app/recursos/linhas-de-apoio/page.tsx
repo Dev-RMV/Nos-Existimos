@@ -147,9 +147,9 @@ export default function LinhasDeApoioPage() {
               href="tel:188"
               className="inline-flex items-center gap-3 bg-[var(--cor-dourado)] text-[var(--cor-azul-base)] font-bold text-2xl px-8 py-4 rounded-xl hover:brightness-110 transition"
             >
-              <Phone size={28} />
+              <Phone size={28} aria-hidden="true" />
               Ligue 188
-            <span className="sr-only"> (abre em nova aba)</span></a>
+            </a>
             <div className="flex justify-center gap-6 mt-6 text-sm">
               <a
                 href="https://www.cvv.org.br/chat"
@@ -211,7 +211,7 @@ export default function LinhasDeApoioPage() {
                       className="text-2xl font-bold text-[var(--cor-dourado-texto)]"
                     >
                       {item.numero}
-                    <span className="sr-only"> (abre em nova aba)</span></a>
+                    </a>
                   </div>
                   <h3 className="text-lg font-bold text-[var(--cor-texto-principal)] mb-2">
                     {item.nome}

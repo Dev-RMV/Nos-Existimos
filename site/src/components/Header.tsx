@@ -180,7 +180,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 text-white font-bold text-xl shrink-0">
               <span className="text-[var(--cor-dourado)] text-3xl leading-none" aria-hidden="true">∞</span>
-              <span className="font-[Inter]">Nós Existimos</span>
+              <span className="font-[family-name:var(--font-inter)]">Nós Existimos</span>
             </Link>
 
             {/* Desktop nav */}
@@ -197,7 +197,7 @@ export default function Header() {
             <div className="flex items-center gap-1">
               <button
                 onClick={() => changeFontSize(-1)}
-                className="hidden sm:flex items-center justify-center w-11 h-11 rounded text-white/80 hover:bg-white/10"
+                className="hidden sm:flex items-center justify-center w-12 h-12 rounded text-white/80 hover:bg-white/10"
                 aria-label="Diminuir tamanho da fonte"
               >
                 <Minus size={14} aria-hidden="true" />
@@ -205,7 +205,7 @@ export default function Header() {
               </button>
               <button
                 onClick={() => changeFontSize(1)}
-                className="hidden sm:flex items-center justify-center w-11 h-11 rounded text-white/80 hover:bg-white/10"
+                className="hidden sm:flex items-center justify-center w-12 h-12 rounded text-white/80 hover:bg-white/10"
                 aria-label="Aumentar tamanho da fonte"
               >
                 <Plus size={14} aria-hidden="true" />
@@ -213,13 +213,13 @@ export default function Header() {
               </button>
               <button
                 onClick={toggleTheme}
-                className="flex items-center justify-center w-11 h-11 rounded-md text-white/80 hover:bg-white/10 transition-colors"
+                className="flex items-center justify-center w-12 h-12 rounded-md text-white/80 hover:bg-white/10 transition-colors"
                 aria-label={theme === "dark" ? "Ativar modo claro" : "Ativar modo escuro"}
               >
                 {theme === "dark" ? <Sun size={18} aria-hidden="true" /> : <Moon size={18} aria-hidden="true" />}
               </button>
               <button
-                className="lg:hidden flex items-center justify-center w-11 h-11 rounded-md text-white/80 hover:bg-white/10"
+                className="lg:hidden flex items-center justify-center w-12 h-12 rounded-md text-white/80 hover:bg-white/10"
                 onClick={() => setMobileOpen(true)}
                 aria-label="Abrir menu de navegação"
               >
@@ -249,7 +249,7 @@ export default function Header() {
                 <button
                   ref={closeButtonRef}
                   onClick={() => setMobileOpen(false)}
-                  className="w-11 h-11 flex items-center justify-center rounded-md hover:bg-[var(--cor-fundo-secundario)]"
+                  className="w-12 h-12 flex items-center justify-center rounded-md hover:bg-[var(--cor-fundo-secundario)]"
                   aria-label="Fechar menu"
                 >
                   <X size={20} aria-hidden="true" />
@@ -282,7 +282,7 @@ export default function Header() {
                             <Link
                               key={child.href}
                               href={child.href}
-                              className="block py-2 text-sm text-[var(--cor-cinza-texto)] hover:text-[var(--cor-azul-profundo)] min-h-11"
+                              className="block py-2 text-sm text-[var(--cor-cinza-texto)] hover:text-[var(--cor-azul-profundo)] min-h-12"
                               onClick={() => setMobileOpen(false)}
                             >
                               {child.label}
@@ -298,7 +298,7 @@ export default function Header() {
                 <div className="flex items-center gap-4 mt-6 pt-4 border-t border-[var(--cor-cinza-claro)]">
                   <button
                     onClick={toggleTheme}
-                    className="flex items-center gap-2 text-sm text-[var(--cor-azul-profundo)] min-h-11"
+                    className="flex items-center gap-2 text-sm text-[var(--cor-azul-profundo)] min-h-12"
                   >
                     {theme === "dark" ? <Sun size={16} aria-hidden="true" /> : <Moon size={16} aria-hidden="true" />}
                     {theme === "dark" ? "Modo claro" : "Modo escuro"}
@@ -306,14 +306,14 @@ export default function Header() {
                   <div className="flex items-center gap-1 ml-auto">
                     <button
                       onClick={() => changeFontSize(-1)}
-                      className="w-11 h-11 rounded border border-[var(--cor-cinza-claro)] flex items-center justify-center text-sm"
+                      className="w-12 h-12 rounded border border-[var(--cor-cinza-claro)] flex items-center justify-center text-sm"
                       aria-label="Diminuir fonte"
                     >
                       A-
                     </button>
                     <button
                       onClick={() => changeFontSize(1)}
-                      className="w-11 h-11 rounded border border-[var(--cor-cinza-claro)] flex items-center justify-center text-sm"
+                      className="w-12 h-12 rounded border border-[var(--cor-cinza-claro)] flex items-center justify-center text-sm"
                       aria-label="Aumentar fonte"
                     >
                       A+

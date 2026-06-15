@@ -122,9 +122,9 @@ function GrupoCard({
             href={`tel:${grupo.telefone.replace(/\D/g, "")}`}
             className="inline-flex items-center gap-1.5 text-[var(--cor-azul-acolhedor)] hover:underline font-medium"
           >
-            <Phone size={14} />
+            <Phone size={14} aria-hidden="true" />
             {grupo.telefone}
-          <span className="sr-only"> (abre em nova aba)</span></a>
+          </a>
         )}
       </div>
     </div>

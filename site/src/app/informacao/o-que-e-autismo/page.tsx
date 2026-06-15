@@ -253,7 +253,7 @@ export default function OQueEAutismoPage() {
                     se manifestem nos primeiros anos de vida. Muitos adultos, especialmente mulheres,
                     são diagnosticados tardiamente porque aprenderam a &ldquo;mascarar&rdquo;
                     (camuflar) suas características autistas — um processo conhecido como
-                    <em> masking</em>, que pode causar exaustão e problemas de saúde mental.
+                    <em lang="en"> masking</em>, que pode causar exaustão e problemas de saúde mental.
                   </p>
 
                   <h3 className="font-bold text-[var(--cor-texto-principal)] text-lg mt-6">

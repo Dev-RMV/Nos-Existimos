@@ -135,12 +135,12 @@ export default function MitosEVerdadesPage() {
                 {/* Mito */}
                 <div className="flex items-start gap-4 p-5 sm:p-6 bg-red-50 dark:bg-red-950/20 border-b border-[var(--cor-cinza-claro)]">
                   <div className="w-10 h-10 rounded-full bg-red-100 dark:bg-red-900/40 flex items-center justify-center shrink-0 mt-0.5">
-                    <span className="text-red-600 dark:text-red-400 font-bold text-lg" aria-hidden="true">
+                    <span className="text-red-700 dark:text-red-400 font-bold text-lg" aria-hidden="true">
                       &#10005;
                     </span>
                   </div>
                   <div>
-                    <span className="text-sm font-bold uppercase tracking-wider text-red-600 dark:text-red-400">
+                    <span className="text-sm font-bold uppercase tracking-wider text-red-700 dark:text-red-400">
                       Mito
                     </span>
                     <p className="text-[var(--cor-texto-principal)] font-semibold mt-1 leading-relaxed">
@@ -152,12 +152,12 @@ export default function MitosEVerdadesPage() {
                 {/* Verdade */}
                 <div className="flex items-start gap-4 p-5 sm:p-6">
                   <div className="w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/40 flex items-center justify-center shrink-0 mt-0.5">
-                    <span className="text-green-600 dark:text-green-400 font-bold text-lg" aria-hidden="true">
+                    <span className="text-green-700 dark:text-green-400 font-bold text-lg" aria-hidden="true">
                       &#10003;
                     </span>
                   </div>
                   <div>
-                    <span className="text-sm font-bold uppercase tracking-wider text-green-600 dark:text-green-400">
+                    <span className="text-sm font-bold uppercase tracking-wider text-green-700 dark:text-green-400">
                       Verdade
                     </span>
                     <p className="text-[var(--cor-texto-corpo)] mt-1 leading-relaxed text-sm">
